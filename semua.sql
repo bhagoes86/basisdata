@@ -369,4 +369,8 @@ INSERT INTO mata_kuliah VALUES ('IKS97543','Teknologi Mobile','IKS74564');
 INSERT INTO mata_kuliah VALUES ('IKS98765','Embedded Systems','IKS75437');
 INSERT INTO mata_kuliah VALUES ('IKS98799','Simulasi & Pemodelan','IKS98765');
 
+table term
 
+INSERT INTO term VALUES (2014,1);
+INSERT INTO term VALUES (2015,2);
+INSERT INTO term VALUES (2016,3);
