@@ -527,3 +527,18 @@ INSERT INTO log VALUES (147,2086,1406543746,1,1,'2017-03-09 00:00:00','11:34','1
 INSERT INTO log VALUES (148,2145,1406543747,2,3,'2017-03-09 00:00:00','11:11','13:08','duis mattis egestas metus aenean');
 INSERT INTO log VALUES (149,2032,1406543748,7,2,'2017-03-10 00:00:00','10:51','18:39','turpis donec posuere');
 INSERT INTO log VALUES (150,2095,1406543749,5,2,'2017-03-10 00:00:00','11:11','13:08','duis mattis egestas metus aenean');
+
+table status_log
+
+INSERT INTO status_log VALUES (1,'dilaporkan');
+INSERT INTO status_log VALUES (2,'disetujui');
+INSERT INTO status_log VALUES (3,'ditolak');
+INSERT INTO status_log VALUES (4,'diproses');
+
+table status_lamaran
+
+INSERT INTO status_lamaran VALUES (1,'Melamar');
+INSERT INTO status_lamaran VALUES (2,'direkomendasikan');
+INSERT INTO status_lamaran VALUES (3,'diterima');
+INSERT INTO status_lamaran VALUES (4,'ditolak');
+
