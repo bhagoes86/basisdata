@@ -1,4 +1,3 @@
-TABLE LOWONGAN
 
 INSERT INTO lowongan VALUES (1000,1,'TRUE',0,'Nilai A++ pada mata kuliah kehidupan',10000000003);
 INSERT INTO lowongan VALUES (1001,2,'FALSE',4,NULL,10000000000);
@@ -68,7 +67,6 @@ INSERT INTO lowongan VALUES (1064,15,'TRUE',6,NULL,10000000000);
 INSERT INTO lowongan VALUES (1065,16,'TRUE',10,NULL,10000000020);
 
 
-TABLE DOSEN_KELAS_MK
 
 INSERT INTO dosen_kelas_mk VALUES (10000000000,1);
 INSERT INTO dosen_kelas_mk VALUES (10000000001,1);
@@ -151,7 +149,6 @@ INSERT INTO dosen_kelas_mk VALUES (10000000027,28);
 INSERT INTO dosen_kelas_mk VALUES (10000000028,29);
 INSERT INTO dosen_kelas_mk VALUES (10000000029,30);
 
-TABLE KATEGORI_LOG
 
 INSERT INTO kategori_log VALUES (1,'plain text');
 INSERT INTO kategori_log VALUES (2,'image');
@@ -163,7 +160,6 @@ INSERT INTO kategori_log VALUES (7,'spreadsheet');
 INSERT INTO kategori_log VALUES (8,'presentation');
 INSERT INTO kategori_log VALUES (9,'other');
 
-TABLE KELAS_MK
 
 INSERT INTO kelas_mk VALUES (1,2014,2,'IKI20505');
 INSERT INTO kelas_mk VALUES (2,2016,1,'IKI10400');
@@ -216,7 +212,7 @@ INSERT INTO kelas_mk VALUES (48,2015,1,'IKS23456');
 INSERT INTO kelas_mk VALUES (49,2014,3,'IKI45678');
 INSERT INTO kelas_mk VALUES (50,2015,2,'IKS34567');
 
-table mahasiswa
+
 
 INSERT INTO mahasiswa VALUES (1406543700,'Bagus Putra Handoko','bagus.putra',654321,'bagus.putra@ui.ac.id','bagus.putra@ui.ac.id','senin/19.00-21.00','Mandiri',213606408,'http://tinypic.com/view.php?pic=2mepzqf&s=8','http://tinypic.com/view.php?pic=2mepzqf&s=8');
 INSERT INTO mahasiswa VALUES (1406543701,'Eka Saputra Wijaya','eka.saputra',654322,'eka.saputra@ui.ac.id','eka.saputra@ui.ac.id','rabu/13.00-15.00','BCA',6438374830,'http://tinypic.com/view.php?pic=2mepzqf&s=9','http://tinypic.com/view.php?pic=2mepzqf&s=9');
@@ -338,7 +334,7 @@ INSERT INTO mahasiswa VALUES (1406543816,'Julia Jenkins','Julia',654437,'jjenkin
 INSERT INTO mahasiswa VALUES (1406543817,'Carol Day','Carol',654438,'cdayh@businessweek.com','cdayh@businessweek.com','rabu/13.00-15.00','BNI',6345256643,'http://tinypic.com/view.php?pic=2mepzqf&s=125','http://tinypic.com/view.php?pic=2mepzqf&s=125');
 INSERT INTO mahasiswa VALUES (1406543818,'Sarah Richards','Sarah',654439,'srichardsi@sun.com','srichardsi@sun.com','kamis/14.00-16.00','Mandiri',6345345346,'http://tinypic.com/view.php?pic=2mepzqf&s=126','http://tinypic.com/view.php?pic=2mepzqf&s=126');
 INSERT INTO mahasiswa VALUES (1406543819,'Martha Ward','Martha',654440,'mwardj@cdc.gov','mwardj@cdc.gov','selasa/13.00-15.00','BTN',674535252,'http://tinypic.com/view.php?pic=2mepzqf&s=127','http://tinypic.com/view.php?pic=2mepzqf&s=127');
-table mata_kuliah
+
 
 INSERT INTO mata_kuliah VALUES ('IKI01010','Topik Khusus Arsitektur & Infrastruktur',NULL);
 INSERT INTO mata_kuliah VALUES ('IKI087879','Computational Geometry',NULL);
@@ -390,13 +386,13 @@ INSERT INTO mata_kuliah VALUES ('IKS97543','Teknologi Mobile','IKS74564');
 INSERT INTO mata_kuliah VALUES ('IKS98765','Embedded Systems','IKS75437');
 INSERT INTO mata_kuliah VALUES ('IKS98799','Simulasi & Pemodelan','IKS98765');
 
-table term
+
 
 INSERT INTO term VALUES (2014,1);
 INSERT INTO term VALUES (2015,2);
 INSERT INTO term VALUES (2016,3);
 
-table log
+
 
 INSERT INTO log VALUES (1,2000,1406543700,4,4,'2016-09-01 00:00:00','09:38','13:33','turpis elementum ligula vehicula consequat morbi');
 INSERT INTO log VALUES (2,2001,1406543701,2,3,'2016-09-01 00:00:00','09:44','13:14','dolor sit amet consectetuer adipiscing elit proin');
@@ -551,21 +547,19 @@ INSERT INTO log VALUES (150,2149,1406543714,5,2,'2017-03-10 00:00:00','11:11','1
 
 
 
-table status_log
 
 INSERT INTO status_log VALUES (1,'dilaporkan');
 INSERT INTO status_log VALUES (2,'disetujui');
 INSERT INTO status_log VALUES (3,'ditolak');
 INSERT INTO status_log VALUES (4,'diproses');
 
-table status_lamaran
 
 INSERT INTO status_lamaran VALUES (1,'Melamar');
 INSERT INTO status_lamaran VALUES (2,'direkomendasikan');
 INSERT INTO status_lamaran VALUES (3,'diterima');
 INSERT INTO status_lamaran VALUES (4,'ditolak');
 
-table telepon_mahasiswa
+
 
 INSERT INTO telepon_mahasiswa VALUES (1406543708,082358815995);
 INSERT INTO telepon_mahasiswa VALUES (1406543796,082321263698);
@@ -688,7 +682,7 @@ INSERT INTO telepon_mahasiswa VALUES (1406543819,087241110012);
 INSERT INTO telepon_mahasiswa VALUES (1406543754,081167507966);
 INSERT INTO telepon_mahasiswa VALUES (1406543724,081111111111);
 
-Tabel dosen
+
 
 INSERT INTO dosen VALUES (10000000000,'Abdul Hadi Ismail','abdul.hadi','sayangmama','abdul.hadi@ui.ac.id','UI','Ilmu komputer'); 
 INSERT INTO dosen VALUES (10000000001,'Hanny Sutanto','hanny.sutanto','sayangpapa','hanny.sutanto@ui.ac.id','UI','Ilmu keperawatan'); 
@@ -742,7 +736,6 @@ INSERT INTO dosen VALUES (10000000048,'Patrick Day','pdays','0QNqNgL8H','pdays@t
 INSERT INTO dosen VALUES (10000000049,'Eric Henderson','ehendersont','3HKvvR','ehendersont@boston.com','Hogeschool Rotterdam','Teknik');
 
 
-table lamaran
 
 INSERT INTO lamaran VALUES (2000,1406543700,1000,1,3.4,82,10000000000);
 INSERT INTO lamaran VALUES (2001,1406543701,1001,2,3.23,76,10000000001);
@@ -895,7 +888,7 @@ INSERT INTO lamaran VALUES (2147,1406543712,1015,1,3.61,61,10000000047);
 INSERT INTO lamaran VALUES (2148,1406543713,1016,2,3.54,101,10000000048);
 INSERT INTO lamaran VALUES (2149,1406543714,1017,4,2.98,87,10000000049);
 
-table mhs_mengambil_kelas_mk
+
 
 INSERT INTO mhs_mengambil_kelas_mk VALUES (1406543700,1,46.05);
 INSERT INTO mhs_mengambil_kelas_mk VALUES (1406543700,2,95.37);
