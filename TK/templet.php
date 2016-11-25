@@ -36,44 +36,34 @@
 		  </div>
 		</nav>
   
-		<div class="container-fluid text-center">    
-			<div class="row content">
-				<div class="col-sm-2 sidenav">
-				</div>
-				
-				
-				<div class="col-sm-8 text-left midit"> 
-					<h1>Tabel</h1>
-					<div class="midit">
-						<table class="table table-bordered table-hover">
-							<thead>
-								<tr>
-									<th>A</th>
-									<th>B</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>A</td>
-									<td>B</td>
-								</tr>
-								<tr>
-									<td>A</td>
-									<td>B</td>
-								</tr>
-								<tr>
-									<td>A</td>
-									<td>B</td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-					
-				</div>
-				
-				
-				<div class="col-sm-2 sidenav">
-				</div>
+		<div class="container-fluid">    
+			
+			<div class="panel center"> 
+				<h1>Tabel</h1>
+				<div class="midit">
+					<table class="table table-bordered table-hover">
+						<thead>
+							<tr>
+								<th>A</th>
+								<th>B</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>A</td>
+								<td>B</td>
+							</tr>
+							<tr>
+								<td>A</td>
+								<td>B</td>
+							</tr>
+							<tr>
+								<td>A</td>
+								<td>B</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>	
 			</div>
 		</div>
 
