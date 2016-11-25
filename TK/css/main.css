@@ -1,3 +1,15 @@
+body {
+	background-color: #002966;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+	padding-right: 40px;
+    padding-left: 40px;
+}
+
 /* Remove the navbar's default margin-bottom and rounded borders */ 
 .navbar {
 	margin-bottom: 0;
@@ -10,13 +22,7 @@
 /* Set gray background color and 100% height */
 .sidenav {
 	padding-top: 20px;
-	background-color: #002966;
 	height: 100%;
-}
-
-.midit {
-    padding-right: 40px;
-    padding-left: 40px;
 }
 
 thead {
