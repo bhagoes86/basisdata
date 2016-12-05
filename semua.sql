@@ -1,164 +1,8 @@
+set search_path to SIASISTEN;
 
-INSERT INTO lowongan VALUES (1000,1,'TRUE',0,'Nilai A++ pada mata kuliah kehidupan',10000000003);
-INSERT INTO lowongan VALUES (1001,2,'FALSE',4,NULL,10000000000);
-INSERT INTO lowongan VALUES (1002,3,'FALSE',1,NULL,10000000001);
-INSERT INTO lowongan VALUES (1003,4,'TRUE',0,NULL,10000000007);
-INSERT INTO lowongan VALUES (1004,5,'TRUE',1,NULL,10000000002);
-INSERT INTO lowongan VALUES (1005,6,'TRUE',2,NULL,10000000015);
-INSERT INTO lowongan VALUES (1006,7,'TRUE',2,NULL,10000000005);
-INSERT INTO lowongan VALUES (1007,8,'FALSE',0,NULL,10000000004);
-INSERT INTO lowongan VALUES (1008,9,'TRUE',5,NULL,10000000003);
-INSERT INTO lowongan VALUES (1009,10,'FALSE',1,NULL,10000000009);
-INSERT INTO lowongan VALUES (1010,11,'FALSE',7,'Nilai A pada mata kuliah Basis Data',10000000007);
-INSERT INTO lowongan VALUES (1011,12,'FALSE',3,NULL,10000000008);
-INSERT INTO lowongan VALUES (1012,13,'TRUE',1,NULL,10000000012);
-INSERT INTO lowongan VALUES (1013,14,'TRUE',2,NULL,10000000001);
-INSERT INTO lowongan VALUES (1014,15,'FALSE',0,NULL,10000000020);
-INSERT INTO lowongan VALUES (1015,16,'FALSE',0,NULL,10000000049);
-INSERT INTO lowongan VALUES (1016,17,'FALSE',7,NULL,10000000048);
-INSERT INTO lowongan VALUES (1017,18,'FALSE',3,NULL,10000000047);
-INSERT INTO lowongan VALUES (1018,19,'FALSE',2,NULL,10000000046);
-INSERT INTO lowongan VALUES (1019,20,'FALSE',1,NULL,10000000045);
-INSERT INTO lowongan VALUES (1020,21,'FALSE',5,NULL,10000000044);
-INSERT INTO lowongan VALUES (1021,22,'FALSE',2,NULL,10000000043);
-INSERT INTO lowongan VALUES (1022,23,'FALSE',2,NULL,10000000042);
-INSERT INTO lowongan VALUES (1023,24,'FALSE',2,NULL,10000000041);
-INSERT INTO lowongan VALUES (1024,25,'FALSE',2,NULL,10000000040);
-INSERT INTO lowongan VALUES (1025,26,'FALSE',4,NULL,10000000039);
-INSERT INTO lowongan VALUES (1026,27,'FALSE',5,NULL,10000000038);
-INSERT INTO lowongan VALUES (1027,28,'TRUE',3,NULL,10000000037);
-INSERT INTO lowongan VALUES (1028,29,'TRUE',2,NULL,10000000036);
-INSERT INTO lowongan VALUES (1029,30,'FALSE',5,NULL,10000000035);
-INSERT INTO lowongan VALUES (1030,31,'TRUE',6,NULL,10000000034);
-INSERT INTO lowongan VALUES (1031,32,'FALSE',7,NULL,10000000033);
-INSERT INTO lowongan VALUES (1032,33,'TRUE',8,NULL,10000000032);
-INSERT INTO lowongan VALUES (1033,34,'FALSE',9,NULL,10000000031);
-INSERT INTO lowongan VALUES (1034,35,'FALSE',2,NULL,10000000030);
-INSERT INTO lowongan VALUES (1035,36,'TRUE',1,NULL,10000000029);
-INSERT INTO lowongan VALUES (1036,37,'TRUE',5,NULL,10000000028);
-INSERT INTO lowongan VALUES (1037,38,'TRUE',6,NULL,10000000027);
-INSERT INTO lowongan VALUES (1038,39,'TRUE',3,NULL,10000000026);
-INSERT INTO lowongan VALUES (1039,40,'TRUE',4,NULL,10000000025);
-INSERT INTO lowongan VALUES (1040,41,'TRUE',6,NULL,10000000024);
-INSERT INTO lowongan VALUES (1041,42,'FALSE',3,NULL,10000000023);
-INSERT INTO lowongan VALUES (1042,43,'FALSE',2,NULL,10000000022);
-INSERT INTO lowongan VALUES (1043,44,'FALSE',3,NULL,10000000021);
-INSERT INTO lowongan VALUES (1044,45,'FALSE',5,NULL,10000000020);
-INSERT INTO lowongan VALUES (1045,46,'TRUE',6,NULL,10000000019);
-INSERT INTO lowongan VALUES (1046,47,'FALSE',7,NULL,10000000018);
-INSERT INTO lowongan VALUES (1047,48,'TRUE',3,NULL,10000000017);
-INSERT INTO lowongan VALUES (1048,49,'FALSE',4,NULL,10000000016);
-INSERT INTO lowongan VALUES (1049,50,'TRUE',2,NULL,10000000015);
-INSERT INTO lowongan VALUES (1050,1,'FALSE',5,NULL,10000000014);
-INSERT INTO lowongan VALUES (1051,2,'TRUE',3,NULL,10000000013);
-INSERT INTO lowongan VALUES (1052,3,'TRUE',2,NULL,10000000012);
-INSERT INTO lowongan VALUES (1053,4,'TRUE',11,NULL,10000000011);
-INSERT INTO lowongan VALUES (1054,5,'TRUE',12,NULL,10000000010);
-INSERT INTO lowongan VALUES (1055,6,'TRUE',15,NULL,10000000009);
-INSERT INTO lowongan VALUES (1056,7,'TRUE',2,NULL,10000000008);
-INSERT INTO lowongan VALUES (1057,8,'TRUE',5,NULL,10000000007);
-INSERT INTO lowongan VALUES (1058,9,'FALSE',2,NULL,10000000006);
-INSERT INTO lowongan VALUES (1059,10,'FALSE',5,NULL,10000000005);
-INSERT INTO lowongan VALUES (1060,11,'FALSE',7,NULL,10000000004);
-INSERT INTO lowongan VALUES (1061,12,'FALSE',8,NULL,10000000003);
-INSERT INTO lowongan VALUES (1062,13,'FALSE',3,NULL,10000000002);
-INSERT INTO lowongan VALUES (1063,14,'TRUE',4,NULL,10000000001);
-INSERT INTO lowongan VALUES (1064,15,'TRUE',6,NULL,10000000000);
-INSERT INTO lowongan VALUES (1065,16,'TRUE',10,NULL,10000000020);
-
-
-
-INSERT INTO dosen_kelas_mk VALUES (10000000000,1);
-INSERT INTO dosen_kelas_mk VALUES (10000000001,1);
-INSERT INTO dosen_kelas_mk VALUES (10000000002,1);
-INSERT INTO dosen_kelas_mk VALUES (10000000003,2);
-INSERT INTO dosen_kelas_mk VALUES (10000000004,2);
-INSERT INTO dosen_kelas_mk VALUES (10000000005,2);
-INSERT INTO dosen_kelas_mk VALUES (10000000006,3);
-INSERT INTO dosen_kelas_mk VALUES (10000000007,3);
-INSERT INTO dosen_kelas_mk VALUES (10000000008,3);
-INSERT INTO dosen_kelas_mk VALUES (10000000009,4);
-INSERT INTO dosen_kelas_mk VALUES (10000000010,4);
-INSERT INTO dosen_kelas_mk VALUES (10000000011,4);
-INSERT INTO dosen_kelas_mk VALUES (10000000012,5);
-INSERT INTO dosen_kelas_mk VALUES (10000000013,5);
-INSERT INTO dosen_kelas_mk VALUES (10000000014,5);
-INSERT INTO dosen_kelas_mk VALUES (10000000015,6);
-INSERT INTO dosen_kelas_mk VALUES (10000000016,6);
-INSERT INTO dosen_kelas_mk VALUES (10000000017,6);
-INSERT INTO dosen_kelas_mk VALUES (10000000018,7);
-INSERT INTO dosen_kelas_mk VALUES (10000000019,7);
-INSERT INTO dosen_kelas_mk VALUES (10000000020,7);
-INSERT INTO dosen_kelas_mk VALUES (10000000021,8);
-INSERT INTO dosen_kelas_mk VALUES (10000000022,8);
-INSERT INTO dosen_kelas_mk VALUES (10000000023,8);
-INSERT INTO dosen_kelas_mk VALUES (10000000024,9);
-INSERT INTO dosen_kelas_mk VALUES (10000000025,9);
-INSERT INTO dosen_kelas_mk VALUES (10000000026,9);
-INSERT INTO dosen_kelas_mk VALUES (10000000027,10);
-INSERT INTO dosen_kelas_mk VALUES (10000000028,10);
-INSERT INTO dosen_kelas_mk VALUES (10000000029,10);
-INSERT INTO dosen_kelas_mk VALUES (10000000030,11);
-INSERT INTO dosen_kelas_mk VALUES (10000000031,11);
-INSERT INTO dosen_kelas_mk VALUES (10000000032,12);
-INSERT INTO dosen_kelas_mk VALUES (10000000033,12);
-INSERT INTO dosen_kelas_mk VALUES (10000000034,13);
-INSERT INTO dosen_kelas_mk VALUES (10000000035,13);
-INSERT INTO dosen_kelas_mk VALUES (10000000036,14);
-INSERT INTO dosen_kelas_mk VALUES (10000000037,14);
-INSERT INTO dosen_kelas_mk VALUES (10000000038,15);
-INSERT INTO dosen_kelas_mk VALUES (10000000039,15);
-INSERT INTO dosen_kelas_mk VALUES (10000000040,16);
-INSERT INTO dosen_kelas_mk VALUES (10000000041,16);
-INSERT INTO dosen_kelas_mk VALUES (10000000042,17);
-INSERT INTO dosen_kelas_mk VALUES (10000000043,17);
-INSERT INTO dosen_kelas_mk VALUES (10000000044,18);
-INSERT INTO dosen_kelas_mk VALUES (10000000045,18);
-INSERT INTO dosen_kelas_mk VALUES (10000000046,19);
-INSERT INTO dosen_kelas_mk VALUES (10000000047,19);
-INSERT INTO dosen_kelas_mk VALUES (10000000048,20);
-INSERT INTO dosen_kelas_mk VALUES (10000000049,20);
-INSERT INTO dosen_kelas_mk VALUES (10000000002,1);
-INSERT INTO dosen_kelas_mk VALUES (10000000001,2);
-INSERT INTO dosen_kelas_mk VALUES (10000000000,3);
-INSERT INTO dosen_kelas_mk VALUES (10000000003,4);
-INSERT INTO dosen_kelas_mk VALUES (10000000004,5);
-INSERT INTO dosen_kelas_mk VALUES (10000000005,6);
-INSERT INTO dosen_kelas_mk VALUES (10000000006,7);
-INSERT INTO dosen_kelas_mk VALUES (10000000007,8);
-INSERT INTO dosen_kelas_mk VALUES (10000000008,9);
-INSERT INTO dosen_kelas_mk VALUES (10000000009,10);
-INSERT INTO dosen_kelas_mk VALUES (10000000010,11);
-INSERT INTO dosen_kelas_mk VALUES (10000000011,12);
-INSERT INTO dosen_kelas_mk VALUES (10000000012,13);
-INSERT INTO dosen_kelas_mk VALUES (10000000013,14);
-INSERT INTO dosen_kelas_mk VALUES (10000000014,15);
-INSERT INTO dosen_kelas_mk VALUES (10000000015,16);
-INSERT INTO dosen_kelas_mk VALUES (10000000016,17);
-INSERT INTO dosen_kelas_mk VALUES (10000000017,18);
-INSERT INTO dosen_kelas_mk VALUES (10000000018,19);
-INSERT INTO dosen_kelas_mk VALUES (10000000019,20);
-INSERT INTO dosen_kelas_mk VALUES (10000000020,21);
-INSERT INTO dosen_kelas_mk VALUES (10000000021,22);
-INSERT INTO dosen_kelas_mk VALUES (10000000022,23);
-INSERT INTO dosen_kelas_mk VALUES (10000000023,24);
-INSERT INTO dosen_kelas_mk VALUES (10000000024,25);
-INSERT INTO dosen_kelas_mk VALUES (10000000025,26);
-INSERT INTO dosen_kelas_mk VALUES (10000000026,27);
-INSERT INTO dosen_kelas_mk VALUES (10000000027,28);
-INSERT INTO dosen_kelas_mk VALUES (10000000028,29);
-INSERT INTO dosen_kelas_mk VALUES (10000000029,30);
-
-
-INSERT INTO kategori VALUES (1,'asistensi/tutorial');
-INSERT INTO kategori VALUES (2,'persiapan asistensi');
-INSERT INTO kategori VALUES (3,'membuat soal/tugas');
-INSERT INTO kategori VALUES (4,'rapat');
-INSERT INTO kategori VALUES (5,'sit in kelas');
-INSERT INTO kategori VALUES (6,'mengoreksi');
-INSERT INTO kategori VALUES (7,'mengawas');
-
-
+INSERT INTO term VALUES (2014,1);
+INSERT INTO term VALUES (2015,2);
+INSERT INTO term VALUES (2016,3);
 
 INSERT INTO mata_kuliah VALUES ('IKI01010','Topik Khusus Arsitektur & Infrastruktur',NULL);
 INSERT INTO mata_kuliah VALUES ('IKI087879','Computational Geometry',NULL);
@@ -210,6 +54,56 @@ INSERT INTO mata_kuliah VALUES ('IKS97543','Teknologi Mobile','IKS74564');
 INSERT INTO mata_kuliah VALUES ('IKS98765','Embedded Systems','IKS75437');
 INSERT INTO mata_kuliah VALUES ('IKS98799','Simulasi & Pemodelan','IKS98765');
 
+INSERT INTO kelas_mk VALUES (1,2014,2,'IKI20505');
+INSERT INTO kelas_mk VALUES (2,2016,1,'IKI10400');
+INSERT INTO kelas_mk VALUES (3,2016,3,'IKI20505');
+INSERT INTO kelas_mk VALUES (4,2015,1,'IKI20700');
+INSERT INTO kelas_mk VALUES (5,2014,3,'IKI20201');
+INSERT INTO kelas_mk VALUES (6,2014,2,'IKI20505');
+INSERT INTO kelas_mk VALUES (7,2015,3,'IKS22602');
+INSERT INTO kelas_mk VALUES (8,2015,1,'IKS32606');
+INSERT INTO kelas_mk VALUES (9,2016,1,'IKI20700');
+INSERT INTO kelas_mk VALUES (10,2014,1,'IKI10400');
+INSERT INTO kelas_mk VALUES (11,2015,3,'IKS22602');
+INSERT INTO kelas_mk VALUES (12,2016,2,'IKS32606');
+INSERT INTO kelas_mk VALUES (13,2015,2,'IKI20700');
+INSERT INTO kelas_mk VALUES (14,2014,3,'IKI10200');
+INSERT INTO kelas_mk VALUES (15,2014,1,'IKS31650');
+INSERT INTO kelas_mk VALUES (16,2016,1,'IKI10200');
+INSERT INTO kelas_mk VALUES (17,2015,2,'IKS31650');
+INSERT INTO kelas_mk VALUES (18,2015,2,'IKI20201');
+INSERT INTO kelas_mk VALUES (19,2014,3,'IKS22602');
+INSERT INTO kelas_mk VALUES (20,2016,1,'IKI20505');
+INSERT INTO kelas_mk VALUES (21,2014,3,'IKI65788');
+INSERT INTO kelas_mk VALUES (22,2016,2,'IKI75486');
+INSERT INTO kelas_mk VALUES (23,2014,2,'IKS64336');
+INSERT INTO kelas_mk VALUES (24,2015,1,'IKI36524');
+INSERT INTO kelas_mk VALUES (25,2016,3,'IKS76475');
+INSERT INTO kelas_mk VALUES (26,2014,1,'IKS64346');
+INSERT INTO kelas_mk VALUES (27,2014,1,'IKI86575');
+INSERT INTO kelas_mk VALUES (28,2016,3,'IKI76435');
+INSERT INTO kelas_mk VALUES (29,2015,2,'IKI36524');
+INSERT INTO kelas_mk VALUES (30,2015,3,'IKS65446');
+INSERT INTO kelas_mk VALUES (31,2016,3,'IKI75486');
+INSERT INTO kelas_mk VALUES (32,2014,1,'IKS76475');
+INSERT INTO kelas_mk VALUES (33,2016,3,'IKI97658');
+INSERT INTO kelas_mk VALUES (34,2014,2,'IKS64336');
+INSERT INTO kelas_mk VALUES (35,2016,2,'IKI45734');
+INSERT INTO kelas_mk VALUES (36,2015,2,'IKI01010');
+INSERT INTO kelas_mk VALUES (37,2016,1,'IKS22334');
+INSERT INTO kelas_mk VALUES (38,2016,3,'IKS44556');
+INSERT INTO kelas_mk VALUES (39,2014,2,'IKS98799');
+INSERT INTO kelas_mk VALUES (40,2015,1,'IKS00997');
+INSERT INTO kelas_mk VALUES (41,2014,3,'IKI24522');
+INSERT INTO kelas_mk VALUES (42,2016,2,'IKI88887');
+INSERT INTO kelas_mk VALUES (43,2014,2,'IKI75665');
+INSERT INTO kelas_mk VALUES (44,2016,2,'IKS75437');
+INSERT INTO kelas_mk VALUES (45,2016,1,'IKS12345');
+INSERT INTO kelas_mk VALUES (46,2015,3,'IKI23456');
+INSERT INTO kelas_mk VALUES (47,2014,1,'IKI34567');
+INSERT INTO kelas_mk VALUES (48,2015,1,'IKS23456');
+INSERT INTO kelas_mk VALUES (49,2014,3,'IKI45678');
+INSERT INTO kelas_mk VALUES (50,2015,2,'IKS34567');
 
 
 INSERT INTO mahasiswa VALUES (1406543700,'Bagus Putra Handoko','bagus.putra',654321,'bagus.putra@ui.ac.id','bagus.putra@ui.ac.id','senin/19.00-21.00','Mandiri',213606408,'http://tinypic.com/view.php?pic=2mepzqf&s=8','http://tinypic.com/view.php?pic=2mepzqf&s=8');
@@ -333,218 +227,6 @@ INSERT INTO mahasiswa VALUES (1406543817,'Carol Day','Carol',654438,'cdayh@busin
 INSERT INTO mahasiswa VALUES (1406543818,'Sarah Richards','Sarah',654439,'srichardsi@sun.com','srichardsi@sun.com','kamis/14.00-16.00','Mandiri',6345345346,'http://tinypic.com/view.php?pic=2mepzqf&s=126','http://tinypic.com/view.php?pic=2mepzqf&s=126');
 INSERT INTO mahasiswa VALUES (1406543819,'Martha Ward','Martha',654440,'mwardj@cdc.gov','mwardj@cdc.gov','selasa/13.00-15.00','BTN',674535252,'http://tinypic.com/view.php?pic=2mepzqf&s=127','http://tinypic.com/view.php?pic=2mepzqf&s=127');
 
-
-INSERT INTO mata_kuliah VALUES ('IKI01010','Topik Khusus Arsitektur & Infrastruktur',NULL);
-INSERT INTO mata_kuliah VALUES ('IKI087879','Computational Geometry',NULL);
-INSERT INTO mata_kuliah VALUES ('IKI10200','Dasar-Dasar Pemrogaman',NULL);
-INSERT INTO mata_kuliah VALUES ('IKI10200','Administrasi Bisnis',NULL);
-INSERT INTO mata_kuliah VALUES ('IKI10400','Struktur Data & Algoritma',NULL);
-INSERT INTO mata_kuliah VALUES ('IKI12345','Fisika Dasar 2',NULL);
-INSERT INTO mata_kuliah VALUES ('IKI20201','Perancangan & Pemrograman Web',NULL);
-INSERT INTO mata_kuliah VALUES ('IKI20505','Sistem Operasi',NULL);
-INSERT INTO mata_kuliah VALUES ('IKI20700','Basis Data',NULL);
-INSERT INTO mata_kuliah VALUES ('IKI23456','Teori Bahasa & Automata',NULL);
-INSERT INTO mata_kuliah VALUES ('IKI24522','Sistem Terdistribusi',NULL);
-INSERT INTO mata_kuliah VALUES ('IKI34567','Pemrograman Deklaratif',NULL);
-INSERT INTO mata_kuliah VALUES ('IKI36524','Supply Chain Management','IKI01010');
-INSERT INTO mata_kuliah VALUES ('IKI45678','Jaringan Komputer','IKI01010');
-INSERT INTO mata_kuliah VALUES ('IKI45734','Basis Data Lanjut','IKI01010');
-INSERT INTO mata_kuliah VALUES ('IKI65788','Dasar-Dasar Audit SI','IKI01010');
-INSERT INTO mata_kuliah VALUES ('IKI75477','Topik Khusus Pengolahan Informasi Multimedia','IKI10200');
-INSERT INTO mata_kuliah VALUES ('IKI75486','Dasar-Dasar Arsitektur Komputer','IKI10200');
-INSERT INTO mata_kuliah VALUES ('IKI75665','Semantic Web','IKI10200');
-INSERT INTO mata_kuliah VALUES ('IKI76435','MPKT B','IKI12345');
-INSERT INTO mata_kuliah VALUES ('IKI86575','MPKT A','IKI20505');
-INSERT INTO mata_kuliah VALUES ('IKI87685','Data Mining','IKI23456');
-INSERT INTO mata_kuliah VALUES ('IKI88887','Grafika Komputer','IKI23456');
-INSERT INTO mata_kuliah VALUES ('IKI97658','Dasar Arsitektur Komputer','IKI24522');
-INSERT INTO mata_kuliah VALUES ('IKI98765','Teori Informasi','IKI45734');
-INSERT INTO mata_kuliah VALUES ('IKS00997','Pengolahan Sinyal Dijital','IKI75486');
-INSERT INTO mata_kuliah VALUES ('IKS01010','Robotika','IKI75486');
-INSERT INTO mata_kuliah VALUES ('IKS10101','Teknologi Mobile','IKI75486');
-INSERT INTO mata_kuliah VALUES ('IKS12345','Pengantar Organisasi Komputer','IKI75665');
-INSERT INTO mata_kuliah VALUES ('IKS22334','Kriptografi & Keamanan Informasi','IKI75665');
-INSERT INTO mata_kuliah VALUES ('IKS22602','Enterprise Resource Planning','IKI76435');
-INSERT INTO mata_kuliah VALUES ('IKS23456','Pemrograman Sistem','IKI76435');
-INSERT INTO mata_kuliah VALUES ('IKS31650','E-Commerce','IKI76435');
-INSERT INTO mata_kuliah VALUES ('IKS32606','Sistem Informasi Akuntansi dan Keuangan','IKI97658');
-INSERT INTO mata_kuliah VALUES ('IKS34567','Analisis Numerik','IKI98765');
-INSERT INTO mata_kuliah VALUES ('IKS44556','Layanan & Aplikasi Web','IKS00997');
-INSERT INTO mata_kuliah VALUES ('IKS45678','Desain & Analisis Algoritma','IKS10101');
-INSERT INTO mata_kuliah VALUES ('IKS46653','Pengolahan Citra','IKS12600');
-INSERT INTO mata_kuliah VALUES ('IKS54543','Sistem Informasi Geografis','IKS22602');
-INSERT INTO mata_kuliah VALUES ('IKS64336','Jaringan Komunikasi Data','IKS23456');
-INSERT INTO mata_kuliah VALUES ('IKS64346','Tugas Akhir','IKS32606');
-INSERT INTO mata_kuliah VALUES ('IKS65446','Prinsip-Prinsip Sistem Informasi','IKS45678');
-INSERT INTO mata_kuliah VALUES ('IKS74564','Bioinformatika','IKS54543');
-INSERT INTO mata_kuliah VALUES ('IKS75437','Game Development','IKS64346');
-INSERT INTO mata_kuliah VALUES ('IKS76475','Proyek Pengembangan Sistem Informasi','IKS64346');
-INSERT INTO mata_kuliah VALUES ('IKS87678','Pemrograman Logika','IKS74564');
-INSERT INTO mata_kuliah VALUES ('IKS97543','Teknologi Mobile','IKS74564');
-INSERT INTO mata_kuliah VALUES ('IKS98765','Embedded Systems','IKS75437');
-INSERT INTO mata_kuliah VALUES ('IKS98799','Simulasi & Pemodelan','IKS98765');
-
-
-
-INSERT INTO term VALUES (2014,1);
-INSERT INTO term VALUES (2015,2);
-INSERT INTO term VALUES (2016,3);
-
-
-
-INSERT INTO log VALUES (1,2000,1406543700,4,4,'2016-09-01 00:00:00','9:38','13:33','turpis elementum ligula vehicula consequat morbi');
-INSERT INTO log VALUES (2,2001,1406543701,2,3,'2016-09-01 00:00:00','9:44','13:14','dolor sit amet consectetuer adipiscing elit proin');
-INSERT INTO log VALUES (3,2002,1406543702,6,2,'2016-09-04 00:00:00','10:44','17:59','nunc commodo placerat praesent');
-INSERT INTO log VALUES (4,2003,1406543703,2,2,'2016-09-06 00:00:00','10:11','13:51','pulvinar nulla pede ullamcorper');
-INSERT INTO log VALUES (5,2004,1406543704,6,3,'2016-09-07 00:00:00','9:05','15:05','sapien non mi integer');
-INSERT INTO log VALUES (6,2005,1406543705,4,4,'2016-09-07 00:00:00','9:21','19:07','est risus auctor sed tristique in tempus');
-INSERT INTO log VALUES (7,2006,1406543706,2,2,'2016-09-08 00:00:00','10:31','16:34','faucibus accumsan odio curabitur convallis duis');
-INSERT INTO log VALUES (8,2007,1406543707,4,2,'2016-09-10 00:00:00','10:13','17:09','adipiscing lorem vitae');
-INSERT INTO log VALUES (9,2008,1406543708,5,1,'2016-09-11 00:00:00','9:17','16:18','eu orci mauris lacinia sapien');
-INSERT INTO log VALUES (10,2009,1406543709,6,2,'2016-09-14 00:00:00','11:27','18:11','nascetur ridiculus mus vivamus vestibulum');
-INSERT INTO log VALUES (11,2010,1406543710,7,3,'2016-09-14 00:00:00','9:09','15:15','ipsum integer a nibh in quis justo');
-INSERT INTO log VALUES (12,2011,1406543711,4,3,'2016-09-19 00:00:00','11:27','12:25','massa id lobortis convallis tortor risus dapibus');
-INSERT INTO log VALUES (13,2012,1406543712,1,2,'2016-09-23 00:00:00','9:23','12:23','at turpis a pede posuere nonummy integer');
-INSERT INTO log VALUES (14,2013,1406543713,5,1,'2016-09-24 00:00:00','9:25','12:21','velit id pretium iaculis diam erat fermentum');
-INSERT INTO log VALUES (15,2014,1406543714,5,1,'2016-09-24 00:00:00','11:08','14:13','orci vehicula condimentum');
-INSERT INTO log VALUES (16,2015,1406543715,7,3,'2016-09-24 00:00:00','9:28','15:15','ut suscipit a feugiat et eros vestibulum');
-INSERT INTO log VALUES (17,2016,1406543716,6,2,'2016-09-25 00:00:00','9:23','16:26','eros suspendisse accumsan tortor quis turpis sed');
-INSERT INTO log VALUES (18,2017,1406543717,6,4,'2016-09-26 00:00:00','11:09','13:49','a feugiat et eros vestibulum');
-INSERT INTO log VALUES (19,2018,1406543718,3,1,'2016-09-27 00:00:00','11:45','18:15','tristique est et');
-INSERT INTO log VALUES (20,2019,1406543719,1,1,'2016-09-27 00:00:00','11:32','17:49','purus eu magna vulputate luctus cum');
-INSERT INTO log VALUES (21,2020,1406543720,5,3,'2016-09-27 00:00:00','10:07','19:07','platea dictumst aliquam augue quam sollicitudin');
-INSERT INTO log VALUES (22,2021,1406543721,5,2,'2016-09-28 00:00:00','9:25','12:15','amet justo morbi ut odio');
-INSERT INTO log VALUES (23,2022,1406543722,7,2,'2016-09-28 00:00:00','11:53','17:52','eu nibh quisque');
-INSERT INTO log VALUES (24,2023,1406543723,2,2,'2016-09-28 00:00:00','9:36','15:58','quis odio consequat varius');
-INSERT INTO log VALUES (25,2024,1406543724,1,3,'2016-09-29 00:00:00','10:25','15:57','proin eu mi');
-INSERT INTO log VALUES (26,2025,1406543725,5,2,'2016-09-30 00:00:00','9:13','17:50','pulvinar nulla pede ullamcorper augue a');
-INSERT INTO log VALUES (27,2026,1406543726,7,4,'2016-09-30 00:00:00','10:26','16:37','iaculis congue vivamus');
-INSERT INTO log VALUES (28,2027,1406543727,5,2,'2016-10-01 00:00:00','10:41','14:00','lacinia eget tincidunt');
-INSERT INTO log VALUES (29,2028,1406543728,6,4,'2016-10-04 00:00:00','9:46','18:38','felis eu sapien cursus');
-INSERT INTO log VALUES (30,2029,1406543729,2,3,'2016-10-04 00:00:00','10:14','18:29','natoque penatibus et');
-INSERT INTO log VALUES (31,2030,1406543700,3,3,'2016-10-06 00:00:00','9:39','18:45','integer ac leo pellentesque');
-INSERT INTO log VALUES (32,2031,1406543701,3,1,'2016-10-11 00:00:00','9:47','18:29','pede libero quis');
-INSERT INTO log VALUES (33,2032,1406543702,2,1,'2016-10-13 00:00:00','10:28','14:56','orci vehicula condimentum');
-INSERT INTO log VALUES (34,2033,1406543703,5,2,'2016-10-13 00:00:00','11:06','19:26','nunc rhoncus dui');
-INSERT INTO log VALUES (35,2034,1406543704,2,2,'2016-10-13 00:00:00','9:58','13:35','erat curabitur gravida nisi at nibh');
-INSERT INTO log VALUES (36,2035,1406543705,5,3,'2016-10-15 00:00:00','10:38','12:13','vivamus metus arcu adipiscing molestie');
-INSERT INTO log VALUES (37,2036,1406543706,5,4,'2016-10-15 00:00:00','10:27','18:56','at velit vivamus vel nulla eget eros');
-INSERT INTO log VALUES (38,2037,1406543707,1,1,'2016-10-15 00:00:00','9:34','14:29','erat nulla tempus vivamus in felis');
-INSERT INTO log VALUES (39,2038,1406543708,7,4,'2016-10-17 00:00:00','10:10','15:15','mi nulla ac enim in tempor turpis');
-INSERT INTO log VALUES (40,2039,1406543709,4,1,'2016-10-17 00:00:00','10:35','17:23','rutrum neque aenean auctor gravida');
-INSERT INTO log VALUES (41,2040,1406543710,7,3,'2016-10-18 00:00:00','11:01','19:27','diam nam tristique');
-INSERT INTO log VALUES (42,2041,1406543711,4,1,'2016-10-18 00:00:00','9:02','19:29','in hac habitasse');
-INSERT INTO log VALUES (43,2042,1406543712,7,3,'2016-10-19 00:00:00','11:56','18:35','nulla suspendisse potenti cras');
-INSERT INTO log VALUES (44,2043,1406543713,6,1,'2016-10-19 00:00:00','11:07','16:41','non lectus aliquam sit amet');
-INSERT INTO log VALUES (45,2044,1406543714,7,1,'2016-10-20 00:00:00','11:05','16:08','in eleifend quam a');
-INSERT INTO log VALUES (46,2045,1406543710,1,4,'2016-10-20 00:00:00','9:21','18:43','nisl ut volutpat');
-INSERT INTO log VALUES (47,2046,1406543711,4,1,'2016-10-20 00:00:00','10:48','19:24','lacinia eget tincidunt eget tempus vel pede');
-INSERT INTO log VALUES (48,2047,1406543712,3,1,'2016-10-21 00:00:00','11:06','16:48','quam sollicitudin vitae consectetuer eget rutrum at');
-INSERT INTO log VALUES (49,2048,1406543713,3,4,'2016-10-23 00:00:00','10:00','13:31','id nisl venenatis');
-INSERT INTO log VALUES (50,2049,1406543714,6,3,'2016-10-23 00:00:00','9:06','16:17','dictumst morbi vestibulum velit id pretium');
-INSERT INTO log VALUES (51,2050,1406543715,1,2,'2016-10-23 00:00:00','9:46','12:52','tortor sollicitudin mi');
-INSERT INTO log VALUES (52,2051,1406543716,3,4,'2016-10-23 00:00:00','9:37','12:53','quis justo maecenas rhoncus aliquam lacus morbi');
-INSERT INTO log VALUES (53,2052,1406543717,1,4,'2016-10-26 00:00:00','9:52','14:07','mi in porttitor pede');
-INSERT INTO log VALUES (54,2053,1406543718,4,3,'2016-10-27 00:00:00','9:39','13:32','aliquet pulvinar sed');
-INSERT INTO log VALUES (55,2054,1406543719,6,2,'2016-10-30 00:00:00','11:40','15:40','justo nec condimentum neque sapien placerat ante');
-INSERT INTO log VALUES (56,2055,1406543720,2,1,'2016-10-30 00:00:00','11:08','15:03','pede malesuada in imperdiet et commodo');
-INSERT INTO log VALUES (57,2056,1406543721,3,4,'2016-11-03 00:00:00','11:11','13:42','orci luctus et ultrices posuere');
-INSERT INTO log VALUES (58,2057,1406543722,5,2,'2016-11-04 00:00:00','10:10','15:28','at nulla suspendisse potenti');
-INSERT INTO log VALUES (59,2058,1406543723,2,1,'2016-11-08 00:00:00','11:49','17:48','consequat in consequat ut');
-INSERT INTO log VALUES (60,2059,1406543724,4,4,'2016-11-08 00:00:00','11:37','17:50','in lacus curabitur at ipsum ac');
-INSERT INTO log VALUES (61,2060,1406543725,2,1,'2016-11-09 00:00:00','11:02','18:19','volutpat eleifend donec ut');
-INSERT INTO log VALUES (62,2061,1406543726,3,1,'2016-11-09 00:00:00','10:45','14:15','sagittis dui vel nisl duis ac nibh');
-INSERT INTO log VALUES (63,2062,1406543727,1,2,'2016-11-09 00:00:00','9:37','16:03','neque aenean auctor gravida sem');
-INSERT INTO log VALUES (64,2063,1406543728,2,1,'2016-11-09 00:00:00','11:02','18:40','nullam sit amet');
-INSERT INTO log VALUES (65,2064,1406543729,7,1,'2016-11-11 00:00:00','10:26','17:07','odio elementum eu interdum eu');
-INSERT INTO log VALUES (66,2065,1406543700,3,2,'2016-11-12 00:00:00','11:02','15:21','quisque ut erat curabitur gravida nisi');
-INSERT INTO log VALUES (67,2066,1406543701,3,1,'2016-11-12 00:00:00','11:25','14:54','eget eros elementum pellentesque quisque porta volutpat');
-INSERT INTO log VALUES (68,2067,1406543702,6,2,'2016-11-14 00:00:00','11:39','19:24','ipsum praesent blandit lacinia erat vestibulum sed');
-INSERT INTO log VALUES (69,2068,1406543703,4,3,'2016-11-17 00:00:00','11:00','12:47','duis mattis egestas');
-INSERT INTO log VALUES (70,2069,1406543704,4,1,'2016-11-18 00:00:00','10:57','16:37','erat volutpat in congue');
-INSERT INTO log VALUES (71,2070,1406543705,7,1,'2016-11-19 00:00:00','10:36','19:50','tempus sit amet sem fusce');
-INSERT INTO log VALUES (72,2071,1406543706,4,4,'2016-11-20 00:00:00','9:55','15:00','in purus eu magna vulputate luctus cum');
-INSERT INTO log VALUES (73,2072,1406543707,3,2,'2016-11-23 00:00:00','9:25','18:21','ac nulla sed vel');
-INSERT INTO log VALUES (74,2073,1406543708,1,3,'2016-11-23 00:00:00','11:11','13:38','molestie hendrerit at vulputate');
-INSERT INTO log VALUES (75,2074,1406543709,3,2,'2016-11-24 00:00:00','10:18','17:29','proin at turpis a');
-INSERT INTO log VALUES (76,2075,1406543710,3,4,'2016-11-26 00:00:00','10:25','19:26','magnis dis parturient montes nascetur');
-INSERT INTO log VALUES (77,2076,1406543711,5,4,'2016-11-26 00:00:00','9:46','18:09','magnis dis parturient');
-INSERT INTO log VALUES (78,2077,1406543712,7,4,'2016-11-26 00:00:00','9:36','15:43','congue vivamus metus arcu adipiscing');
-INSERT INTO log VALUES (79,2078,1406543713,5,4,'2016-11-27 00:00:00','11:59','13:38','libero nullam sit amet turpis elementum');
-INSERT INTO log VALUES (80,2079,1406543714,4,1,'2016-11-27 00:00:00','11:06','18:27','eget semper rutrum nulla nunc');
-INSERT INTO log VALUES (81,2080,1406543710,3,1,'2016-11-28 00:00:00','9:08','17:18','amet nunc viverra');
-INSERT INTO log VALUES (82,2081,1406543711,5,2,'2016-11-28 00:00:00','11:51','17:40','ipsum ac tellus semper');
-INSERT INTO log VALUES (83,2082,1406543712,4,1,'2016-12-01 00:00:00','9:14','17:46','tempor turpis nec euismod scelerisque');
-INSERT INTO log VALUES (84,2083,1406543713,6,1,'2016-12-01 00:00:00','11:44','13:38','et ultrices posuere cubilia curae nulla');
-INSERT INTO log VALUES (85,2084,1406543714,2,3,'2016-12-01 00:00:00','10:55','15:18','consectetuer eget rutrum at lorem integer');
-INSERT INTO log VALUES (86,2085,1406543715,3,4,'2016-12-01 00:00:00','9:48','18:19','aliquam lacus morbi');
-INSERT INTO log VALUES (87,2086,1406543716,3,4,'2016-12-02 00:00:00','10:55','13:13','quis libero nullam sit amet turpis elementum');
-INSERT INTO log VALUES (88,2087,1406543717,7,1,'2016-12-03 00:00:00','10:44','16:09','adipiscing lorem vitae');
-INSERT INTO log VALUES (89,2088,1406543718,5,3,'2016-12-03 00:00:00','10:25','13:49','convallis eget eleifend');
-INSERT INTO log VALUES (90,2089,1406543719,1,1,'2016-12-06 00:00:00','11:56','12:41','faucibus orci luctus et ultrices');
-INSERT INTO log VALUES (91,2090,1406543720,7,4,'2016-12-08 00:00:00','10:54','15:29','proin interdum mauris non ligula');
-INSERT INTO log VALUES (92,2091,1406543721,4,2,'2016-12-10 00:00:00','11:42','13:52','lorem vitae mattis');
-INSERT INTO log VALUES (93,2092,1406543722,7,3,'2016-12-11 00:00:00','11:35','19:26','eros vestibulum ac est');
-INSERT INTO log VALUES (94,2093,1406543723,3,1,'2016-12-11 00:00:00','9:36','15:54','sit amet turpis elementum');
-INSERT INTO log VALUES (95,2094,1406543724,4,4,'2016-12-11 00:00:00','10:26','14:47','at turpis donec posuere metus');
-INSERT INTO log VALUES (96,2095,1406543725,1,3,'2016-12-13 00:00:00','9:57','13:05','molestie lorem quisque ut erat curabitur gravida');
-INSERT INTO log VALUES (97,2096,1406543726,1,2,'2016-12-14 00:00:00','10:41','17:50','nulla suscipit ligula in lacus');
-INSERT INTO log VALUES (98,2097,1406543727,6,1,'2016-12-17 00:00:00','11:34','19:17','in imperdiet et commodo vulputate');
-INSERT INTO log VALUES (99,2098,1406543728,7,2,'2016-12-18 00:00:00','11:11','13:08','duis mattis egestas metus aenean');
-INSERT INTO log VALUES (100,2099,1406543729,5,4,'2016-12-18 00:00:00','10:51','18:39','turpis donec posuere');
-INSERT INTO log VALUES (101,2100,1406543700,3,3,'2016-12-18 00:00:00','10:10','15:28','at nulla suspendisse potenti');
-INSERT INTO log VALUES (102,2101,1406543701,5,1,'2016-12-18 00:00:00','11:49','17:48','consequat in consequat ut');
-INSERT INTO log VALUES (103,2102,1406543702,6,3,'2016-12-19 00:00:00','11:37','17:50','in lacus curabitur at ipsum ac');
-INSERT INTO log VALUES (104,2103,1406543703,2,2,'2016-12-20 00:00:00','11:02','18:19','volutpat eleifend donec ut');
-INSERT INTO log VALUES (105,2104,1406543704,2,1,'2016-12-21 00:00:00','10:45','14:15','sagittis dui vel nisl duis ac nibh');
-INSERT INTO log VALUES (106,2105,1406543705,1,1,'2016-12-21 00:00:00','9:37','16:03','neque aenean auctor gravida sem');
-INSERT INTO log VALUES (107,2106,1406543706,6,3,'2016-12-23 00:00:00','11:02','18:40','nullam sit amet');
-INSERT INTO log VALUES (108,2107,1406543707,3,2,'2016-12-28 00:00:00','10:26','17:07','odio elementum eu interdum eu');
-INSERT INTO log VALUES (109,2108,1406543708,4,4,'2016-12-29 00:00:00','11:02','15:21','quisque ut erat curabitur gravida nisi');
-INSERT INTO log VALUES (110,2109,1406543709,5,3,'2017-01-06 00:00:00','11:25','14:54','eget eros elementum pellentesque quisque porta volutpat');
-INSERT INTO log VALUES (111,2110,1406543710,6,2,'2017-01-07 00:00:00','11:39','19:24','ipsum praesent blandit lacinia erat vestibulum sed');
-INSERT INTO log VALUES (112,2111,1406543711,6,1,'2017-01-13 00:00:00','11:00','12:47','duis mattis egestas');
-INSERT INTO log VALUES (113,2112,1406543712,5,3,'2017-01-14 00:00:00','10:57','16:37','erat volutpat in congue');
-INSERT INTO log VALUES (114,2113,1406543713,5,2,'2017-01-15 00:00:00','10:36','19:50','tempus sit amet sem fusce');
-INSERT INTO log VALUES (115,2114,1406543714,6,3,'2017-01-16 00:00:00','9:55','15:00','in purus eu magna vulputate luctus cum');
-INSERT INTO log VALUES (116,2115,1406543710,3,4,'2017-01-17 00:00:00','9:25','18:21','ac nulla sed vel');
-INSERT INTO log VALUES (117,2116,1406543711,1,3,'2017-01-17 00:00:00','11:11','13:38','molestie hendrerit at vulputate');
-INSERT INTO log VALUES (118,2117,1406543712,3,1,'2017-01-17 00:00:00','10:18','17:29','proin at turpis a');
-INSERT INTO log VALUES (119,2118,1406543713,7,1,'2017-01-17 00:00:00','10:25','19:26','magnis dis parturient montes nascetur');
-INSERT INTO log VALUES (120,2119,1406543714,6,1,'2017-01-19 00:00:00','9:46','18:09','magnis dis parturient');
-INSERT INTO log VALUES (121,2120,1406543715,4,2,'2017-01-21 00:00:00','9:36','15:43','congue vivamus metus arcu adipiscing');
-INSERT INTO log VALUES (122,2121,1406543716,2,3,'2017-01-24 00:00:00','11:59','13:38','libero nullam sit amet turpis elementum');
-INSERT INTO log VALUES (123,2122,1406543717,6,3,'2017-01-25 00:00:00','11:06','18:27','eget semper rutrum nulla nunc');
-INSERT INTO log VALUES (124,2123,1406543718,7,3,'2017-01-25 00:00:00','9:08','17:18','amet nunc viverra');
-INSERT INTO log VALUES (125,2124,1406543719,5,4,'2017-01-27 00:00:00','11:51','17:40','ipsum ac tellus semper');
-INSERT INTO log VALUES (126,2125,1406543720,6,2,'2017-01-30 00:00:00','9:14','17:46','tempor turpis nec euismod scelerisque');
-INSERT INTO log VALUES (127,2126,1406543721,6,3,'2017-02-01 00:00:00','11:44','13:38','et ultrices posuere cubilia curae nulla');
-INSERT INTO log VALUES (128,2127,1406543722,2,1,'2017-02-01 00:00:00','10:55','15:18','consectetuer eget rutrum at lorem integer');
-INSERT INTO log VALUES (129,2128,1406543723,1,3,'2017-02-01 00:00:00','9:48','18:19','aliquam lacus morbi');
-INSERT INTO log VALUES (130,2129,1406543724,7,4,'2017-02-03 00:00:00','10:55','13:13','quis libero nullam sit amet turpis elementum');
-INSERT INTO log VALUES (131,2130,1406543725,3,3,'2017-02-12 00:00:00','10:44','16:09','adipiscing lorem vitae');
-INSERT INTO log VALUES (132,2131,1406543726,6,2,'2017-02-12 00:00:00','10:25','13:49','convallis eget eleifend');
-INSERT INTO log VALUES (133,2132,1406543727,4,4,'2017-02-12 00:00:00','11:56','12:41','faucibus orci luctus et ultrices');
-INSERT INTO log VALUES (134,2133,1406543728,4,3,'2017-02-13 00:00:00','10:54','15:29','proin interdum mauris non ligula');
-INSERT INTO log VALUES (135,2134,1406543729,7,1,'2017-02-15 00:00:00','11:42','13:52','lorem vitae mattis');
-INSERT INTO log VALUES (136,2135,1406543700,6,2,'2017-02-16 00:00:00','11:35','19:26','eros vestibulum ac est');
-INSERT INTO log VALUES (137,2136,1406543701,2,3,'2017-02-17 00:00:00','9:36','15:54','sit amet turpis elementum');
-INSERT INTO log VALUES (138,2137,1406543702,3,1,'2017-02-20 00:00:00','10:26','14:47','at turpis donec posuere metus');
-INSERT INTO log VALUES (139,2138,1406543703,1,4,'2017-02-21 00:00:00','9:57','13:05','molestie lorem quisque ut erat curabitur gravida');
-INSERT INTO log VALUES (140,2139,1406543704,2,3,'2017-02-22 00:00:00','10:41','17:50','nulla suscipit ligula in lacus');
-INSERT INTO log VALUES (141,2140,1406543705,3,2,'2017-02-24 00:00:00','11:34','19:17','in imperdiet et commodo vulputate');
-INSERT INTO log VALUES (142,2141,1406543706,3,1,'2017-02-26 00:00:00','11:11','13:08','duis mattis egestas metus aenean');
-INSERT INTO log VALUES (143,2142,1406543707,2,4,'2017-02-27 00:00:00','10:51','18:39','turpis donec posuere');
-INSERT INTO log VALUES (144,2143,1406543708,1,3,'2017-03-01 00:00:00','10:26','14:47','at turpis donec posuere metus');
-INSERT INTO log VALUES (145,2144,1406543709,4,2,'2017-03-06 00:00:00','9:57','13:05','molestie lorem quisque ut erat curabitur gravida');
-INSERT INTO log VALUES (146,2145,1406543710,6,4,'2017-03-09 00:00:00','10:41','17:50','nulla suscipit ligula in lacus');
-INSERT INTO log VALUES (147,2146,1406543711,1,1,'2017-03-09 00:00:00','11:34','19:17','in imperdiet et commodo vulputate');
-INSERT INTO log VALUES (148,2147,1406543712,2,3,'2017-03-09 00:00:00','11:11','13:08','duis mattis egestas metus aenean');
-INSERT INTO log VALUES (149,2148,1406543713,7,2,'2017-03-10 00:00:00','10:51','18:39','turpis donec posuere');
-INSERT INTO log VALUES (150,2149,1406543714,5,2,'2017-03-10 00:00:00','11:11','13:08','duis mattis egestas metus aenean');
-
-
-
 INSERT INTO status_log VALUES (1,'dilaporkan');
 INSERT INTO status_log VALUES (2,'disetujui');
 INSERT INTO status_log VALUES (3,'ditolak');
@@ -552,7 +234,7 @@ INSERT INTO status_log VALUES (4,'diproses');
 
 
 INSERT INTO status_lamaran VALUES (1,'Melamar');
-INSERT INTO status_lamaran VALUES (2,'direkomendasikan');
+INSERT INTO status_lamaran VALUES (2,'rekomendas');
 INSERT INTO status_lamaran VALUES (3,'diterima');
 INSERT INTO status_lamaran VALUES (4,'ditolak');
 
@@ -732,7 +414,229 @@ INSERT INTO dosen VALUES (10000000047,'Linda Harper','lharperr','h5pzFo16W','lha
 INSERT INTO dosen VALUES (10000000048,'Patrick Day','pdays','0QNqNgL8H','pdays@telegraph.co.uk','Universidad Interamericana de Puerto Rico','Teknik'); 
 INSERT INTO dosen VALUES (10000000049,'Eric Henderson','ehendersont','3HKvvR','ehendersont@boston.com','Hogeschool Rotterdam','Teknik');
 
+INSERT INTO lowongan VALUES ('1000','0001','TRUE','0','Nilai A++ pada mata kuliah kehidupan','10000000000');
 
+INSERT INTO lowongan VALUES ('1001','0001','FALSE','4','','10000000001');
+
+INSERT INTO lowongan VALUES ('1002','0001','FALSE','1','','10000000002');
+
+INSERT INTO lowongan VALUES ('1003','0002','TRUE','0','','10000000003');
+
+INSERT INTO lowongan VALUES ('1004','0002','TRUE','1','','10000000004');
+
+INSERT INTO lowongan VALUES ('1005','0002','TRUE','2','','10000000005');
+
+INSERT INTO lowongan VALUES ('1006','0003','TRUE','2','','10000000006');
+
+INSERT INTO lowongan VALUES ('1007','0003','FALSE','0','','10000000007');
+
+INSERT INTO lowongan VALUES ('1008','0003','TRUE','5','','10000000008');
+
+INSERT INTO lowongan VALUES ('1009','0004','FALSE','1','','10000000009');
+
+INSERT INTO lowongan VALUES ('1010','0004','FALSE','7','Nilai A pada mata kuliah Basis Data','10000000010');
+
+INSERT INTO lowongan VALUES ('1011','0004','FALSE','3','','10000000011');
+
+INSERT INTO lowongan VALUES ('1012','0005','TRUE','1','','10000000012');
+
+INSERT INTO lowongan VALUES ('1013','0005','TRUE','2','','10000000013');
+
+INSERT INTO lowongan VALUES ('1014','0005','FALSE','0','','10000000014');
+
+INSERT INTO lowongan VALUES ('1015','0006','FALSE','0','','10000000015');
+
+INSERT INTO lowongan VALUES ('1016','0006','FALSE','7','','10000000016');
+
+INSERT INTO lowongan VALUES ('1017','0006','FALSE','3','','10000000017');
+
+INSERT INTO lowongan VALUES ('1018','0007','FALSE','2','','10000000018');
+
+INSERT INTO lowongan VALUES ('1019','0007','FALSE','1','','10000000019');
+
+INSERT INTO lowongan VALUES ('1020','0007','FALSE','5','','10000000020');
+
+INSERT INTO lowongan VALUES ('1021','0008','FALSE','2','','10000000021');
+
+INSERT INTO lowongan VALUES ('1022','0008','FALSE','2','','10000000022');
+
+INSERT INTO lowongan VALUES ('1023','0008','FALSE','2','','10000000023');
+
+INSERT INTO lowongan VALUES ('1024','0009','FALSE','2','','10000000024');
+
+INSERT INTO lowongan VALUES ('1025','0009','FALSE','4','','10000000025');
+
+INSERT INTO lowongan VALUES ('1026','0009','FALSE','5','','10000000026');
+
+INSERT INTO lowongan VALUES ('1027','0010','TRUE','3','','10000000027');
+
+INSERT INTO lowongan VALUES ('1028','0010','TRUE','2','','10000000028');
+
+INSERT INTO lowongan VALUES ('1029','0010','FALSE','5','','10000000029');
+
+INSERT INTO lowongan VALUES ('1030','0011','TRUE','6','','10000000030');
+
+INSERT INTO lowongan VALUES ('1031','0011','FALSE','7','','10000000031');
+
+INSERT INTO lowongan VALUES ('1032','0012','TRUE','8','','10000000032');
+
+INSERT INTO lowongan VALUES ('1033','0012','FALSE','9','','10000000033');
+
+INSERT INTO lowongan VALUES ('1034','0013','FALSE','2','','10000000034');
+
+INSERT INTO lowongan VALUES ('1035','0013','TRUE','1','','10000000035');
+
+INSERT INTO lowongan VALUES ('1036','0014','TRUE','5','','10000000036');
+
+INSERT INTO lowongan VALUES ('1037','0014','TRUE','6','','10000000037');
+
+INSERT INTO lowongan VALUES ('1038','0015','TRUE','3','','10000000038');
+
+INSERT INTO lowongan VALUES ('1039','0015','TRUE','4','','10000000039');
+
+INSERT INTO lowongan VALUES ('1040','0016','TRUE','6','','10000000040');
+
+INSERT INTO lowongan VALUES ('1041','0016','FALSE','3','','10000000041');
+
+INSERT INTO lowongan VALUES ('1042','0017','FALSE','2','','10000000042');
+
+INSERT INTO lowongan VALUES ('1043','0017','FALSE','3','','10000000043');
+
+INSERT INTO lowongan VALUES ('1044','0018','FALSE','5','','10000000044');
+
+INSERT INTO lowongan VALUES ('1045','0018','TRUE','6','','10000000045');
+
+INSERT INTO lowongan VALUES ('1046','0019','FALSE','7','','10000000046');
+
+INSERT INTO lowongan VALUES ('1047','0019','TRUE','3','','10000000047');
+
+INSERT INTO lowongan VALUES ('1048','0020','FALSE','4','','10000000048');
+
+INSERT INTO lowongan VALUES ('1049','0020','TRUE','2','','10000000049');
+
+INSERT INTO lowongan VALUES ('1050','0019','FALSE','5','','10000000002');
+
+INSERT INTO lowongan VALUES ('1051','0002','TRUE','3','','10000000001');
+
+INSERT INTO lowongan VALUES ('1052','0003','TRUE','2','','10000000000');
+
+INSERT INTO lowongan VALUES ('1053','0004','TRUE','11','','10000000003');
+
+INSERT INTO lowongan VALUES ('1054','0005','TRUE','12','','10000000004');
+
+INSERT INTO lowongan VALUES ('1055','0006','TRUE','15','','10000000005');
+
+INSERT INTO lowongan VALUES ('1056','0007','TRUE','2','','10000000006');
+
+INSERT INTO lowongan VALUES ('1057','0008','TRUE','5','','10000000007');
+
+INSERT INTO lowongan VALUES ('1058','0009','FALSE','2','','10000000008');
+
+INSERT INTO lowongan VALUES ('1059','0010','FALSE','5','','10000000009');
+
+INSERT INTO lowongan VALUES ('1060','0011','FALSE','7','','10000000010');
+
+INSERT INTO lowongan VALUES ('1061','0012','FALSE','8','','10000000011');
+
+INSERT INTO lowongan VALUES ('1062','0013','FALSE','3','','10000000012');
+
+INSERT INTO lowongan VALUES ('1063','0014','TRUE','4','','10000000013');
+
+INSERT INTO lowongan VALUES ('1064','0015','TRUE','6','','10000000014');
+
+INSERT INTO lowongan VALUES ('1065','0016','TRUE','10','','10000000015');
+
+
+
+INSERT INTO dosen_kelas_mk VALUES (10000000000,1);
+INSERT INTO dosen_kelas_mk VALUES (10000000001,1);
+INSERT INTO dosen_kelas_mk VALUES (10000000002,1);
+INSERT INTO dosen_kelas_mk VALUES (10000000003,2);
+INSERT INTO dosen_kelas_mk VALUES (10000000004,2);
+INSERT INTO dosen_kelas_mk VALUES (10000000005,2);
+INSERT INTO dosen_kelas_mk VALUES (10000000006,3);
+INSERT INTO dosen_kelas_mk VALUES (10000000007,3);
+INSERT INTO dosen_kelas_mk VALUES (10000000008,3);
+INSERT INTO dosen_kelas_mk VALUES (10000000009,4);
+INSERT INTO dosen_kelas_mk VALUES (10000000010,4);
+INSERT INTO dosen_kelas_mk VALUES (10000000011,4);
+INSERT INTO dosen_kelas_mk VALUES (10000000012,5);
+INSERT INTO dosen_kelas_mk VALUES (10000000013,5);
+INSERT INTO dosen_kelas_mk VALUES (10000000014,5);
+INSERT INTO dosen_kelas_mk VALUES (10000000015,6);
+INSERT INTO dosen_kelas_mk VALUES (10000000016,6);
+INSERT INTO dosen_kelas_mk VALUES (10000000017,6);
+INSERT INTO dosen_kelas_mk VALUES (10000000018,7);
+INSERT INTO dosen_kelas_mk VALUES (10000000019,7);
+INSERT INTO dosen_kelas_mk VALUES (10000000020,7);
+INSERT INTO dosen_kelas_mk VALUES (10000000021,8);
+INSERT INTO dosen_kelas_mk VALUES (10000000022,8);
+INSERT INTO dosen_kelas_mk VALUES (10000000023,8);
+INSERT INTO dosen_kelas_mk VALUES (10000000024,9);
+INSERT INTO dosen_kelas_mk VALUES (10000000025,9);
+INSERT INTO dosen_kelas_mk VALUES (10000000026,9);
+INSERT INTO dosen_kelas_mk VALUES (10000000027,10);
+INSERT INTO dosen_kelas_mk VALUES (10000000028,10);
+INSERT INTO dosen_kelas_mk VALUES (10000000029,10);
+INSERT INTO dosen_kelas_mk VALUES (10000000030,11);
+INSERT INTO dosen_kelas_mk VALUES (10000000031,11);
+INSERT INTO dosen_kelas_mk VALUES (10000000032,12);
+INSERT INTO dosen_kelas_mk VALUES (10000000033,12);
+INSERT INTO dosen_kelas_mk VALUES (10000000034,13);
+INSERT INTO dosen_kelas_mk VALUES (10000000035,13);
+INSERT INTO dosen_kelas_mk VALUES (10000000036,14);
+INSERT INTO dosen_kelas_mk VALUES (10000000037,14);
+INSERT INTO dosen_kelas_mk VALUES (10000000038,15);
+INSERT INTO dosen_kelas_mk VALUES (10000000039,15);
+INSERT INTO dosen_kelas_mk VALUES (10000000040,16);
+INSERT INTO dosen_kelas_mk VALUES (10000000041,16);
+INSERT INTO dosen_kelas_mk VALUES (10000000042,17);
+INSERT INTO dosen_kelas_mk VALUES (10000000043,17);
+INSERT INTO dosen_kelas_mk VALUES (10000000044,18);
+INSERT INTO dosen_kelas_mk VALUES (10000000045,18);
+INSERT INTO dosen_kelas_mk VALUES (10000000046,19);
+INSERT INTO dosen_kelas_mk VALUES (10000000047,19);
+INSERT INTO dosen_kelas_mk VALUES (10000000048,20);
+INSERT INTO dosen_kelas_mk VALUES (10000000049,20);
+INSERT INTO dosen_kelas_mk VALUES (10000000002,3);
+INSERT INTO dosen_kelas_mk VALUES (10000000002,2);
+INSERT INTO dosen_kelas_mk VALUES (10000000000,3);
+INSERT INTO dosen_kelas_mk VALUES (10000000003,4);
+INSERT INTO dosen_kelas_mk VALUES (10000000004,5);
+INSERT INTO dosen_kelas_mk VALUES (10000000005,6);
+INSERT INTO dosen_kelas_mk VALUES (10000000006,7);
+INSERT INTO dosen_kelas_mk VALUES (10000000007,8);
+INSERT INTO dosen_kelas_mk VALUES (10000000008,9);
+INSERT INTO dosen_kelas_mk VALUES (10000000009,10);
+INSERT INTO dosen_kelas_mk VALUES (10000000010,11);
+INSERT INTO dosen_kelas_mk VALUES (10000000011,12);
+INSERT INTO dosen_kelas_mk VALUES (10000000012,13);
+INSERT INTO dosen_kelas_mk VALUES (10000000013,14);
+INSERT INTO dosen_kelas_mk VALUES (10000000014,15);
+INSERT INTO dosen_kelas_mk VALUES (10000000015,16);
+INSERT INTO dosen_kelas_mk VALUES (10000000016,17);
+INSERT INTO dosen_kelas_mk VALUES (10000000017,18);
+INSERT INTO dosen_kelas_mk VALUES (10000000018,19);
+INSERT INTO dosen_kelas_mk VALUES (10000000019,20);
+INSERT INTO dosen_kelas_mk VALUES (10000000020,21);
+INSERT INTO dosen_kelas_mk VALUES (10000000021,22);
+INSERT INTO dosen_kelas_mk VALUES (10000000022,23);
+INSERT INTO dosen_kelas_mk VALUES (10000000023,24);
+INSERT INTO dosen_kelas_mk VALUES (10000000024,25);
+INSERT INTO dosen_kelas_mk VALUES (10000000025,26);
+INSERT INTO dosen_kelas_mk VALUES (10000000026,27);
+INSERT INTO dosen_kelas_mk VALUES (10000000027,28);
+INSERT INTO dosen_kelas_mk VALUES (10000000028,29);
+INSERT INTO dosen_kelas_mk VALUES (10000000029,30);
+
+
+INSERT INTO kategori_log VALUES (1,'asistensi/tutorial');
+INSERT INTO kategori_log VALUES (2,'persiapan asistensi');
+INSERT INTO kategori_log VALUES (3,'membuat soal/tugas');
+INSERT INTO kategori_log VALUES (4,'rapat');
+INSERT INTO kategori_log VALUES (5,'sit in kelas');
+INSERT INTO kategori_log VALUES (6,'mengoreksi');
+INSERT INTO kategori_log VALUES (7,'mengawas');
 
 INSERT INTO lamaran VALUES (2000,1406543700,1000,1,3.4,82,10000000000);
 INSERT INTO lamaran VALUES (2001,1406543701,1001,2,3.23,76,10000000001);
@@ -884,6 +788,159 @@ INSERT INTO lamaran VALUES (2146,1406543711,1014,2,3.21,79,10000000046);
 INSERT INTO lamaran VALUES (2147,1406543712,1015,1,3.61,61,10000000047);
 INSERT INTO lamaran VALUES (2148,1406543713,1016,2,3.54,101,10000000048);
 INSERT INTO lamaran VALUES (2149,1406543714,1017,4,2.98,87,10000000049);
+
+
+INSERT INTO log VALUES (1,2000,1406543700,4,4,'2016-09-01 00:00:00','9:38','13:33','turpis elementum ligula vehicula consequat morbi');
+INSERT INTO log VALUES (2,2001,1406543701,2,3,'2016-09-01 00:00:00','9:44','13:14','dolor sit amet consectetuer adipiscing elit proin');
+INSERT INTO log VALUES (3,2002,1406543702,6,2,'2016-09-04 00:00:00','10:44','17:59','nunc commodo placerat praesent');
+INSERT INTO log VALUES (4,2003,1406543703,2,2,'2016-09-06 00:00:00','10:11','13:51','pulvinar nulla pede ullamcorper');
+INSERT INTO log VALUES (5,2004,1406543704,6,3,'2016-09-07 00:00:00','9:05','15:05','sapien non mi integer');
+INSERT INTO log VALUES (6,2005,1406543705,4,4,'2016-09-07 00:00:00','9:21','19:07','est risus auctor sed tristique in tempus');
+INSERT INTO log VALUES (7,2006,1406543706,2,2,'2016-09-08 00:00:00','10:31','16:34','faucibus accumsan odio curabitur convallis duis');
+INSERT INTO log VALUES (8,2007,1406543707,4,2,'2016-09-10 00:00:00','10:13','17:09','adipiscing lorem vitae');
+INSERT INTO log VALUES (9,2008,1406543708,5,1,'2016-09-11 00:00:00','9:17','16:18','eu orci mauris lacinia sapien');
+INSERT INTO log VALUES (10,2009,1406543709,6,2,'2016-09-14 00:00:00','11:27','18:11','nascetur ridiculus mus vivamus vestibulum');
+INSERT INTO log VALUES (11,2010,1406543710,7,3,'2016-09-14 00:00:00','9:09','15:15','ipsum integer a nibh in quis justo');
+INSERT INTO log VALUES (12,2011,1406543711,4,3,'2016-09-19 00:00:00','11:27','12:25','massa id lobortis convallis tortor risus dapibus');
+INSERT INTO log VALUES (13,2012,1406543712,1,2,'2016-09-23 00:00:00','9:23','12:23','at turpis a pede posuere nonummy integer');
+INSERT INTO log VALUES (14,2013,1406543713,5,1,'2016-09-24 00:00:00','9:25','12:21','velit id pretium iaculis diam erat fermentum');
+INSERT INTO log VALUES (15,2014,1406543714,5,1,'2016-09-24 00:00:00','11:08','14:13','orci vehicula condimentum');
+INSERT INTO log VALUES (16,2015,1406543715,7,3,'2016-09-24 00:00:00','9:28','15:15','ut suscipit a feugiat et eros vestibulum');
+INSERT INTO log VALUES (17,2016,1406543716,6,2,'2016-09-25 00:00:00','9:23','16:26','eros suspendisse accumsan tortor quis turpis sed');
+INSERT INTO log VALUES (18,2017,1406543717,6,4,'2016-09-26 00:00:00','11:09','13:49','a feugiat et eros vestibulum');
+INSERT INTO log VALUES (19,2018,1406543718,3,1,'2016-09-27 00:00:00','11:45','18:15','tristique est et');
+INSERT INTO log VALUES (20,2019,1406543719,1,1,'2016-09-27 00:00:00','11:32','17:49','purus eu magna vulputate luctus cum');
+INSERT INTO log VALUES (21,2020,1406543720,5,3,'2016-09-27 00:00:00','10:07','19:07','platea dictumst aliquam augue quam sollicitudin');
+INSERT INTO log VALUES (22,2021,1406543721,5,2,'2016-09-28 00:00:00','9:25','12:15','amet justo morbi ut odio');
+INSERT INTO log VALUES (23,2022,1406543722,7,2,'2016-09-28 00:00:00','11:53','17:52','eu nibh quisque');
+INSERT INTO log VALUES (24,2023,1406543723,2,2,'2016-09-28 00:00:00','9:36','15:58','quis odio consequat varius');
+INSERT INTO log VALUES (25,2024,1406543724,1,3,'2016-09-29 00:00:00','10:25','15:57','proin eu mi');
+INSERT INTO log VALUES (26,2025,1406543725,5,2,'2016-09-30 00:00:00','9:13','17:50','pulvinar nulla pede ullamcorper augue a');
+INSERT INTO log VALUES (27,2026,1406543726,7,4,'2016-09-30 00:00:00','10:26','16:37','iaculis congue vivamus');
+INSERT INTO log VALUES (28,2027,1406543727,5,2,'2016-10-01 00:00:00','10:41','14:00','lacinia eget tincidunt');
+INSERT INTO log VALUES (29,2028,1406543728,6,4,'2016-10-04 00:00:00','9:46','18:38','felis eu sapien cursus');
+INSERT INTO log VALUES (30,2029,1406543729,2,3,'2016-10-04 00:00:00','10:14','18:29','natoque penatibus et');
+INSERT INTO log VALUES (31,2030,1406543700,3,3,'2016-10-06 00:00:00','9:39','18:45','integer ac leo pellentesque');
+INSERT INTO log VALUES (32,2031,1406543701,3,1,'2016-10-11 00:00:00','9:47','18:29','pede libero quis');
+INSERT INTO log VALUES (33,2032,1406543702,2,1,'2016-10-13 00:00:00','10:28','14:56','orci vehicula condimentum');
+INSERT INTO log VALUES (34,2033,1406543703,5,2,'2016-10-13 00:00:00','11:06','19:26','nunc rhoncus dui');
+INSERT INTO log VALUES (35,2034,1406543704,2,2,'2016-10-13 00:00:00','9:58','13:35','erat curabitur gravida nisi at nibh');
+INSERT INTO log VALUES (36,2035,1406543705,5,3,'2016-10-15 00:00:00','10:38','12:13','vivamus metus arcu adipiscing molestie');
+INSERT INTO log VALUES (37,2036,1406543706,5,4,'2016-10-15 00:00:00','10:27','18:56','at velit vivamus vel nulla eget eros');
+INSERT INTO log VALUES (38,2037,1406543707,1,1,'2016-10-15 00:00:00','9:34','14:29','erat nulla tempus vivamus in felis');
+INSERT INTO log VALUES (39,2038,1406543708,7,4,'2016-10-17 00:00:00','10:10','15:15','mi nulla ac enim in tempor turpis');
+INSERT INTO log VALUES (40,2039,1406543709,4,1,'2016-10-17 00:00:00','10:35','17:23','rutrum neque aenean auctor gravida');
+INSERT INTO log VALUES (41,2040,1406543710,7,3,'2016-10-18 00:00:00','11:01','19:27','diam nam tristique');
+INSERT INTO log VALUES (42,2041,1406543711,4,1,'2016-10-18 00:00:00','9:02','19:29','in hac habitasse');
+INSERT INTO log VALUES (43,2042,1406543712,7,3,'2016-10-19 00:00:00','11:56','18:35','nulla suspendisse potenti cras');
+INSERT INTO log VALUES (44,2043,1406543713,6,1,'2016-10-19 00:00:00','11:07','16:41','non lectus aliquam sit amet');
+INSERT INTO log VALUES (45,2044,1406543714,7,1,'2016-10-20 00:00:00','11:05','16:08','in eleifend quam a');
+INSERT INTO log VALUES (46,2045,1406543710,1,4,'2016-10-20 00:00:00','9:21','18:43','nisl ut volutpat');
+INSERT INTO log VALUES (47,2046,1406543711,4,1,'2016-10-20 00:00:00','10:48','19:24','lacinia eget tincidunt eget tempus vel pede');
+INSERT INTO log VALUES (48,2047,1406543712,3,1,'2016-10-21 00:00:00','11:06','16:48','quam sollicitudin vitae consectetuer eget rutrum at');
+INSERT INTO log VALUES (49,2048,1406543713,3,4,'2016-10-23 00:00:00','10:00','13:31','id nisl venenatis');
+INSERT INTO log VALUES (50,2049,1406543714,6,3,'2016-10-23 00:00:00','9:06','16:17','dictumst morbi vestibulum velit id pretium');
+INSERT INTO log VALUES (51,2050,1406543715,1,2,'2016-10-23 00:00:00','9:46','12:52','tortor sollicitudin mi');
+INSERT INTO log VALUES (52,2051,1406543716,3,4,'2016-10-23 00:00:00','9:37','12:53','quis justo maecenas rhoncus aliquam lacus morbi');
+INSERT INTO log VALUES (53,2052,1406543717,1,4,'2016-10-26 00:00:00','9:52','14:07','mi in porttitor pede');
+INSERT INTO log VALUES (54,2053,1406543718,4,3,'2016-10-27 00:00:00','9:39','13:32','aliquet pulvinar sed');
+INSERT INTO log VALUES (55,2054,1406543719,6,2,'2016-10-30 00:00:00','11:40','15:40','justo nec condimentum neque sapien placerat ante');
+INSERT INTO log VALUES (56,2055,1406543720,2,1,'2016-10-30 00:00:00','11:08','15:03','pede malesuada in imperdiet et commodo');
+INSERT INTO log VALUES (57,2056,1406543721,3,4,'2016-11-03 00:00:00','11:11','13:42','orci luctus et ultrices posuere');
+INSERT INTO log VALUES (58,2057,1406543722,5,2,'2016-11-04 00:00:00','10:10','15:28','at nulla suspendisse potenti');
+INSERT INTO log VALUES (59,2058,1406543723,2,1,'2016-11-08 00:00:00','11:49','17:48','consequat in consequat ut');
+INSERT INTO log VALUES (60,2059,1406543724,4,4,'2016-11-08 00:00:00','11:37','17:50','in lacus curabitur at ipsum ac');
+INSERT INTO log VALUES (61,2060,1406543725,2,1,'2016-11-09 00:00:00','11:02','18:19','volutpat eleifend donec ut');
+INSERT INTO log VALUES (62,2061,1406543726,3,1,'2016-11-09 00:00:00','10:45','14:15','sagittis dui vel nisl duis ac nibh');
+INSERT INTO log VALUES (63,2062,1406543727,1,2,'2016-11-09 00:00:00','9:37','16:03','neque aenean auctor gravida sem');
+INSERT INTO log VALUES (64,2063,1406543728,2,1,'2016-11-09 00:00:00','11:02','18:40','nullam sit amet');
+INSERT INTO log VALUES (65,2064,1406543729,7,1,'2016-11-11 00:00:00','10:26','17:07','odio elementum eu interdum eu');
+INSERT INTO log VALUES (66,2065,1406543700,3,2,'2016-11-12 00:00:00','11:02','15:21','quisque ut erat curabitur gravida nisi');
+INSERT INTO log VALUES (67,2066,1406543701,3,1,'2016-11-12 00:00:00','11:25','14:54','eget eros elementum pellentesque quisque porta volutpat');
+INSERT INTO log VALUES (68,2067,1406543702,6,2,'2016-11-14 00:00:00','11:39','19:24','ipsum praesent blandit lacinia erat vestibulum sed');
+INSERT INTO log VALUES (69,2068,1406543703,4,3,'2016-11-17 00:00:00','11:00','12:47','duis mattis egestas');
+INSERT INTO log VALUES (70,2069,1406543704,4,1,'2016-11-18 00:00:00','10:57','16:37','erat volutpat in congue');
+INSERT INTO log VALUES (71,2070,1406543705,7,1,'2016-11-19 00:00:00','10:36','19:50','tempus sit amet sem fusce');
+INSERT INTO log VALUES (72,2071,1406543706,4,4,'2016-11-20 00:00:00','9:55','15:00','in purus eu magna vulputate luctus cum');
+INSERT INTO log VALUES (73,2072,1406543707,3,2,'2016-11-23 00:00:00','9:25','18:21','ac nulla sed vel');
+INSERT INTO log VALUES (74,2073,1406543708,1,3,'2016-11-23 00:00:00','11:11','13:38','molestie hendrerit at vulputate');
+INSERT INTO log VALUES (75,2074,1406543709,3,2,'2016-11-24 00:00:00','10:18','17:29','proin at turpis a');
+INSERT INTO log VALUES (76,2075,1406543710,3,4,'2016-11-26 00:00:00','10:25','19:26','magnis dis parturient montes nascetur');
+INSERT INTO log VALUES (77,2076,1406543711,5,4,'2016-11-26 00:00:00','9:46','18:09','magnis dis parturient');
+INSERT INTO log VALUES (78,2077,1406543712,7,4,'2016-11-26 00:00:00','9:36','15:43','congue vivamus metus arcu adipiscing');
+INSERT INTO log VALUES (79,2078,1406543713,5,4,'2016-11-27 00:00:00','11:59','13:38','libero nullam sit amet turpis elementum');
+INSERT INTO log VALUES (80,2079,1406543714,4,1,'2016-11-27 00:00:00','11:06','18:27','eget semper rutrum nulla nunc');
+INSERT INTO log VALUES (81,2080,1406543710,3,1,'2016-11-28 00:00:00','9:08','17:18','amet nunc viverra');
+INSERT INTO log VALUES (82,2081,1406543711,5,2,'2016-11-28 00:00:00','11:51','17:40','ipsum ac tellus semper');
+INSERT INTO log VALUES (83,2082,1406543712,4,1,'2016-12-01 00:00:00','9:14','17:46','tempor turpis nec euismod scelerisque');
+INSERT INTO log VALUES (84,2083,1406543713,6,1,'2016-12-01 00:00:00','11:44','13:38','et ultrices posuere cubilia curae nulla');
+INSERT INTO log VALUES (85,2084,1406543714,2,3,'2016-12-01 00:00:00','10:55','15:18','consectetuer eget rutrum at lorem integer');
+INSERT INTO log VALUES (86,2085,1406543715,3,4,'2016-12-01 00:00:00','9:48','18:19','aliquam lacus morbi');
+INSERT INTO log VALUES (87,2086,1406543716,3,4,'2016-12-02 00:00:00','10:55','13:13','quis libero nullam sit amet turpis elementum');
+INSERT INTO log VALUES (88,2087,1406543717,7,1,'2016-12-03 00:00:00','10:44','16:09','adipiscing lorem vitae');
+INSERT INTO log VALUES (89,2088,1406543718,5,3,'2016-12-03 00:00:00','10:25','13:49','convallis eget eleifend');
+INSERT INTO log VALUES (90,2089,1406543719,1,1,'2016-12-06 00:00:00','11:56','12:41','faucibus orci luctus et ultrices');
+INSERT INTO log VALUES (91,2090,1406543720,7,4,'2016-12-08 00:00:00','10:54','15:29','proin interdum mauris non ligula');
+INSERT INTO log VALUES (92,2091,1406543721,4,2,'2016-12-10 00:00:00','11:42','13:52','lorem vitae mattis');
+INSERT INTO log VALUES (93,2092,1406543722,7,3,'2016-12-11 00:00:00','11:35','19:26','eros vestibulum ac est');
+INSERT INTO log VALUES (94,2093,1406543723,3,1,'2016-12-11 00:00:00','9:36','15:54','sit amet turpis elementum');
+INSERT INTO log VALUES (95,2094,1406543724,4,4,'2016-12-11 00:00:00','10:26','14:47','at turpis donec posuere metus');
+INSERT INTO log VALUES (96,2095,1406543725,1,3,'2016-12-13 00:00:00','9:57','13:05','molestie lorem quisque ut erat curabitur gravida');
+INSERT INTO log VALUES (97,2096,1406543726,1,2,'2016-12-14 00:00:00','10:41','17:50','nulla suscipit ligula in lacus');
+INSERT INTO log VALUES (98,2097,1406543727,6,1,'2016-12-17 00:00:00','11:34','19:17','in imperdiet et commodo vulputate');
+INSERT INTO log VALUES (99,2098,1406543728,7,2,'2016-12-18 00:00:00','11:11','13:08','duis mattis egestas metus aenean');
+INSERT INTO log VALUES (100,2099,1406543729,5,4,'2016-12-18 00:00:00','10:51','18:39','turpis donec posuere');
+INSERT INTO log VALUES (101,2100,1406543700,3,3,'2016-12-18 00:00:00','10:10','15:28','at nulla suspendisse potenti');
+INSERT INTO log VALUES (102,2101,1406543701,5,1,'2016-12-18 00:00:00','11:49','17:48','consequat in consequat ut');
+INSERT INTO log VALUES (103,2102,1406543702,6,3,'2016-12-19 00:00:00','11:37','17:50','in lacus curabitur at ipsum ac');
+INSERT INTO log VALUES (104,2103,1406543703,2,2,'2016-12-20 00:00:00','11:02','18:19','volutpat eleifend donec ut');
+INSERT INTO log VALUES (105,2104,1406543704,2,1,'2016-12-21 00:00:00','10:45','14:15','sagittis dui vel nisl duis ac nibh');
+INSERT INTO log VALUES (106,2105,1406543705,1,1,'2016-12-21 00:00:00','9:37','16:03','neque aenean auctor gravida sem');
+INSERT INTO log VALUES (107,2106,1406543706,6,3,'2016-12-23 00:00:00','11:02','18:40','nullam sit amet');
+INSERT INTO log VALUES (108,2107,1406543707,3,2,'2016-12-28 00:00:00','10:26','17:07','odio elementum eu interdum eu');
+INSERT INTO log VALUES (109,2108,1406543708,4,4,'2016-12-29 00:00:00','11:02','15:21','quisque ut erat curabitur gravida nisi');
+INSERT INTO log VALUES (110,2109,1406543709,5,3,'2017-01-06 00:00:00','11:25','14:54','eget eros elementum pellentesque quisque porta volutpat');
+INSERT INTO log VALUES (111,2110,1406543710,6,2,'2017-01-07 00:00:00','11:39','19:24','ipsum praesent blandit lacinia erat vestibulum sed');
+INSERT INTO log VALUES (112,2111,1406543711,6,1,'2017-01-13 00:00:00','11:00','12:47','duis mattis egestas');
+INSERT INTO log VALUES (113,2112,1406543712,5,3,'2017-01-14 00:00:00','10:57','16:37','erat volutpat in congue');
+INSERT INTO log VALUES (114,2113,1406543713,5,2,'2017-01-15 00:00:00','10:36','19:50','tempus sit amet sem fusce');
+INSERT INTO log VALUES (115,2114,1406543714,6,3,'2017-01-16 00:00:00','9:55','15:00','in purus eu magna vulputate luctus cum');
+INSERT INTO log VALUES (116,2115,1406543710,3,4,'2017-01-17 00:00:00','9:25','18:21','ac nulla sed vel');
+INSERT INTO log VALUES (117,2116,1406543711,1,3,'2017-01-17 00:00:00','11:11','13:38','molestie hendrerit at vulputate');
+INSERT INTO log VALUES (118,2117,1406543712,3,1,'2017-01-17 00:00:00','10:18','17:29','proin at turpis a');
+INSERT INTO log VALUES (119,2118,1406543713,7,1,'2017-01-17 00:00:00','10:25','19:26','magnis dis parturient montes nascetur');
+INSERT INTO log VALUES (120,2119,1406543714,6,1,'2017-01-19 00:00:00','9:46','18:09','magnis dis parturient');
+INSERT INTO log VALUES (121,2120,1406543715,4,2,'2017-01-21 00:00:00','9:36','15:43','congue vivamus metus arcu adipiscing');
+INSERT INTO log VALUES (122,2121,1406543716,2,3,'2017-01-24 00:00:00','11:59','13:38','libero nullam sit amet turpis elementum');
+INSERT INTO log VALUES (123,2122,1406543717,6,3,'2017-01-25 00:00:00','11:06','18:27','eget semper rutrum nulla nunc');
+INSERT INTO log VALUES (124,2123,1406543718,7,3,'2017-01-25 00:00:00','9:08','17:18','amet nunc viverra');
+INSERT INTO log VALUES (125,2124,1406543719,5,4,'2017-01-27 00:00:00','11:51','17:40','ipsum ac tellus semper');
+INSERT INTO log VALUES (126,2125,1406543720,6,2,'2017-01-30 00:00:00','9:14','17:46','tempor turpis nec euismod scelerisque');
+INSERT INTO log VALUES (127,2126,1406543721,6,3,'2017-02-01 00:00:00','11:44','13:38','et ultrices posuere cubilia curae nulla');
+INSERT INTO log VALUES (128,2127,1406543722,2,1,'2017-02-01 00:00:00','10:55','15:18','consectetuer eget rutrum at lorem integer');
+INSERT INTO log VALUES (129,2128,1406543723,1,3,'2017-02-01 00:00:00','9:48','18:19','aliquam lacus morbi');
+INSERT INTO log VALUES (130,2129,1406543724,7,4,'2017-02-03 00:00:00','10:55','13:13','quis libero nullam sit amet turpis elementum');
+INSERT INTO log VALUES (131,2130,1406543725,3,3,'2017-02-12 00:00:00','10:44','16:09','adipiscing lorem vitae');
+INSERT INTO log VALUES (132,2131,1406543726,6,2,'2017-02-12 00:00:00','10:25','13:49','convallis eget eleifend');
+INSERT INTO log VALUES (133,2132,1406543727,4,4,'2017-02-12 00:00:00','11:56','12:41','faucibus orci luctus et ultrices');
+INSERT INTO log VALUES (134,2133,1406543728,4,3,'2017-02-13 00:00:00','10:54','15:29','proin interdum mauris non ligula');
+INSERT INTO log VALUES (135,2134,1406543729,7,1,'2017-02-15 00:00:00','11:42','13:52','lorem vitae mattis');
+INSERT INTO log VALUES (136,2135,1406543700,6,2,'2017-02-16 00:00:00','11:35','19:26','eros vestibulum ac est');
+INSERT INTO log VALUES (137,2136,1406543701,2,3,'2017-02-17 00:00:00','9:36','15:54','sit amet turpis elementum');
+INSERT INTO log VALUES (138,2137,1406543702,3,1,'2017-02-20 00:00:00','10:26','14:47','at turpis donec posuere metus');
+INSERT INTO log VALUES (139,2138,1406543703,1,4,'2017-02-21 00:00:00','9:57','13:05','molestie lorem quisque ut erat curabitur gravida');
+INSERT INTO log VALUES (140,2139,1406543704,2,3,'2017-02-22 00:00:00','10:41','17:50','nulla suscipit ligula in lacus');
+INSERT INTO log VALUES (141,2140,1406543705,3,2,'2017-02-24 00:00:00','11:34','19:17','in imperdiet et commodo vulputate');
+INSERT INTO log VALUES (142,2141,1406543706,3,1,'2017-02-26 00:00:00','11:11','13:08','duis mattis egestas metus aenean');
+INSERT INTO log VALUES (143,2142,1406543707,2,4,'2017-02-27 00:00:00','10:51','18:39','turpis donec posuere');
+INSERT INTO log VALUES (144,2143,1406543708,1,3,'2017-03-01 00:00:00','10:26','14:47','at turpis donec posuere metus');
+INSERT INTO log VALUES (145,2144,1406543709,4,2,'2017-03-06 00:00:00','9:57','13:05','molestie lorem quisque ut erat curabitur gravida');
+INSERT INTO log VALUES (146,2145,1406543710,6,4,'2017-03-09 00:00:00','10:41','17:50','nulla suscipit ligula in lacus');
+INSERT INTO log VALUES (147,2146,1406543711,1,1,'2017-03-09 00:00:00','11:34','19:17','in imperdiet et commodo vulputate');
+INSERT INTO log VALUES (148,2147,1406543712,2,3,'2017-03-09 00:00:00','11:11','13:08','duis mattis egestas metus aenean');
+INSERT INTO log VALUES (149,2148,1406543713,7,2,'2017-03-10 00:00:00','10:51','18:39','turpis donec posuere');
+INSERT INTO log VALUES (150,2149,1406543714,5,2,'2017-03-10 00:00:00','11:11','13:08','duis mattis egestas metus aenean');
+
 
 
 
@@ -1087,55 +1144,3 @@ INSERT INTO mhs_mengambil_kelas_mk VALUES (1406543714,47,26.9);
 INSERT INTO mhs_mengambil_kelas_mk VALUES (1406543714,48,96.36);
 INSERT INTO mhs_mengambil_kelas_mk VALUES (1406543714,49,12.82);
 INSERT INTO mhs_mengambil_kelas_mk VALUES (1406543714,50,61.24);
-
-INSERT INTO kelas_mk VALUES (1,2014,2,'IKI20505');
-INSERT INTO kelas_mk VALUES (2,2016,1,'IKI10400');
-INSERT INTO kelas_mk VALUES (3,2016,3,'IKI20505');
-INSERT INTO kelas_mk VALUES (4,2015,1,'IKI20700');
-INSERT INTO kelas_mk VALUES (5,2014,3,'IKI20201');
-INSERT INTO kelas_mk VALUES (6,2014,2,'IKI20505');
-INSERT INTO kelas_mk VALUES (7,2015,3,'IKS22602');
-INSERT INTO kelas_mk VALUES (8,2015,1,'IKS32606');
-INSERT INTO kelas_mk VALUES (9,2016,1,'IKI20700');
-INSERT INTO kelas_mk VALUES (10,2014,1,'IKI10400');
-INSERT INTO kelas_mk VALUES (11,2015,3,'IKS22602');
-INSERT INTO kelas_mk VALUES (12,2016,2,'IKS32606');
-INSERT INTO kelas_mk VALUES (13,2015,2,'IKI20700');
-INSERT INTO kelas_mk VALUES (14,2014,3,'IKI10200');
-INSERT INTO kelas_mk VALUES (15,2014,1,'IKS31650');
-INSERT INTO kelas_mk VALUES (16,2016,1,'IKI10200');
-INSERT INTO kelas_mk VALUES (17,2015,2,'IKS31650');
-INSERT INTO kelas_mk VALUES (18,2015,2,'IKI20201');
-INSERT INTO kelas_mk VALUES (19,2014,3,'IKS22602');
-INSERT INTO kelas_mk VALUES (20,2016,1,'IKI20505');
-INSERT INTO kelas_mk VALUES (21,2014,3,'IKI65788');
-INSERT INTO kelas_mk VALUES (22,2016,2,'IKI75486');
-INSERT INTO kelas_mk VALUES (23,2014,2,'IKS64336');
-INSERT INTO kelas_mk VALUES (24,2015,1,'IKI36524');
-INSERT INTO kelas_mk VALUES (25,2016,3,'IKS76475');
-INSERT INTO kelas_mk VALUES (26,2014,1,'IKS64346');
-INSERT INTO kelas_mk VALUES (27,2014,1,'IKI86575');
-INSERT INTO kelas_mk VALUES (28,2016,3,'IKI76435');
-INSERT INTO kelas_mk VALUES (29,2015,2,'IKI36524');
-INSERT INTO kelas_mk VALUES (30,2015,3,'IKS65446');
-INSERT INTO kelas_mk VALUES (31,2016,3,'IKI75486');
-INSERT INTO kelas_mk VALUES (32,2014,1,'IKS76475');
-INSERT INTO kelas_mk VALUES (33,2016,3,'IKI97658');
-INSERT INTO kelas_mk VALUES (34,2014,2,'IKS64336');
-INSERT INTO kelas_mk VALUES (35,2016,2,'IKI45734');
-INSERT INTO kelas_mk VALUES (36,2015,2,'IKI01010');
-INSERT INTO kelas_mk VALUES (37,2016,1,'IKS22334');
-INSERT INTO kelas_mk VALUES (38,2016,3,'IKS44556');
-INSERT INTO kelas_mk VALUES (39,2014,2,'IKS98799');
-INSERT INTO kelas_mk VALUES (40,2015,1,'IKS00997');
-INSERT INTO kelas_mk VALUES (41,2014,3,'IKI24522');
-INSERT INTO kelas_mk VALUES (42,2016,2,'IKI88887');
-INSERT INTO kelas_mk VALUES (43,2014,2,'IKI75665');
-INSERT INTO kelas_mk VALUES (44,2016,2,'IKS75437');
-INSERT INTO kelas_mk VALUES (45,2016,1,'IKS12345');
-INSERT INTO kelas_mk VALUES (46,2015,3,'IKI23456');
-INSERT INTO kelas_mk VALUES (47,2014,1,'IKI34567');
-INSERT INTO kelas_mk VALUES (48,2015,1,'IKS23456');
-INSERT INTO kelas_mk VALUES (49,2014,3,'IKI45678');
-INSERT INTO kelas_mk VALUES (50,2015,2,'IKS34567');
-
