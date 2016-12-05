@@ -2,7 +2,7 @@
     require "connect.php";
     session_start();
     if(isset($_SESSION["username"])){
-        header("Location:lihat_lowongan.php");        
+        header("Location:lihat-lowongan.php");        
     }
 
     $resp = "";
@@ -20,7 +20,7 @@
 	            $_SESSION["nama"] = $search["nama"];
 		    $_SESSION['role'] = "MHS";
             }  
-             header("Location:lihat_lowongan.php");
+             header("Location:lihat-lowongan.php");
             exit();
         } else {
            $resp = "<br><div class=\"alert alert-danger fade in\" style = 'text-align: center;'>
@@ -36,7 +36,7 @@
 		         $_SESSION["nama"] = $search["nama"];
 			 $_SESSION['role'] = "DSN";
 	            }  
-	             header("Location:lihat_lowongan.php");
+	             header("Location:lihat-lowongan.php");
 	            exit();
 	        } else {
 	           $resp = "<br><div class=\"alert alert-danger fade in\" style = 'text-align: center;'>
