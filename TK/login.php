@@ -18,6 +18,7 @@
             if ($search = searchMhs($username) > 0) {
 	            $_SESSION["npm"] = $search["npm"];
 	            $_SESSION["nama"] = $search["nama"];
+		    $_SESSION['role'] = "MHS";
             }  
              header("Location:lihat_lowongan.php");
             exit();
@@ -31,8 +32,9 @@
             $resp = "Login successful";
             $_SESSION["username"] = $username;
 	         if ($search = searchDosen($username) > 0) {
-		            $_SESSION["nip"] = $search["nip"];
-		            $_SESSION["nama"] = $search["nama"];
+		         $_SESSION["nip"] = $search["nip"];
+		         $_SESSION["nama"] = $search["nama"];
+			 $_SESSION['role'] = "DSN";
 	            }  
 	             header("Location:lihat_lowongan.php");
 	            exit();
