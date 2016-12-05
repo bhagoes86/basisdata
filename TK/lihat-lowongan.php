@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 
 <?php
-	include "connectdb.php";
+	include "connect.php";
 	
-	if(!connect())
+	if(!connectDB())
 		die(pg_last_error());
 	
 	session_start();
-	
-	$rows_per_page = 15;
+    if(!isset($_SESSION["username"])){
+        header("Location: login.php");
+    }
 
+    $role = $_SESSION["role"];
+	$nip = $_SESSION["nip"];
+
+	$rows_per_page = 15;
+	
 
 	if(isset ($_GET['page'])){
 		$page = $_GET['page'];
@@ -19,13 +25,22 @@
 
 	$Batas_awal = $rows_per_page * $page;
 	
-	$conn = connect();
-
-	$sql = 'SELECT l.idlowongan, mk.nama as namakelas, d.nama as namadosen, l.jumlah_asisten, l.status
-			FROM siasisten.lowongan l
-			JOIN siasisten.kelas_mk kmk ON l.idkelasmk=kmk.id
-            JOIN siasisten.mata_kuliah mk ON kmk.kode_mk=mk.kode
-			JOIN siasisten.dosen d ON d.nip=l.nipdosenpembuka';
+	$conn = connectDB();
+	
+	if($role == "MHS"){
+		$sql = 'SELECT l.idlowongan, mk.nama as namakelas, d.nama as namadosen, l.jumlah_asisten, l.status
+				FROM siasisten.lowongan l
+				JOIN siasisten.kelas_mk kmk ON l.idkelasmk=kmk.id
+				JOIN siasisten.mata_kuliah mk ON kmk.kode_mk=mk.kode
+				JOIN siasisten.dosen d ON d.nip=l.nipdosenpembuka';
+	} else {
+		$sql = 'SELECT l.idlowongan, mk.nama as namakelas, d.nama as namadosen, l.jumlah_asisten, l.status
+				FROM siasisten.lowongan l
+				JOIN siasisten.kelas_mk kmk ON l.idkelasmk=kmk.id
+				JOIN siasisten.mata_kuliah mk ON kmk.kode_mk=mk.kode
+				JOIN siasisten.dosen d ON d.nip=l.nipdosenpembuka
+				WHERE d.nip = '. $nip;
+	}
 	$result = pg_query($conn, $sql);
 	$total = pg_numrows($result);
 	$pages = ceil($total / $rows_per_page);
@@ -65,14 +80,14 @@
 						<span class="caret"></span></a>
 						<ul class="dropdown-menu">
 							<li class="active"><a href="lihat-lowongan.php"> Lihat Lowongan</a></li>
-							<li><a href="tambah-lowongan.php">Tambah Lowongan</a></li>
+							<?php if($role == "DSN" ) : ?><li><a href="tambah-lowongan.php">Tambah Lowongan</a></li><?php endif; ?>
 						</ul>
 					</li>
 					<li><a href="#">Menu 2</a></li>
 					<li><a href="#">Menu 3</a></li>
 				  </ul>
 				  <ul class="nav navbar-nav navbar-right">
-					<li><a href="#"> Login</a></li>
+					<li><a href="logout.php"> Logout</a></li>
 				  </ul>
 				</div>
 			 </div>
@@ -82,9 +97,8 @@
 			<div class="panel center">
 					<h2>Daftar Lowongan Asisten</h2>
 					<p>
-						<button type="button" class="btn btn-default"><a href="tambah-lowongan.php">Tambah</a></button>
+						<?php if($role == "DSN" ) : ?><a type="button" class="btn btn-default" href="tambah-lowongan.php">Tambah</a><?php endif; ?>
 					</p>
-					
 				<div class="midit">
 					<table class="table table-bordered table-hover">
 						<thead>
@@ -100,20 +114,37 @@
 							</tr>
 						</thead>
 						<tbody>
+						
+						
 							<?php
-								while($row = pg_fetch_array($result)){  //Meng-echo masing-masing elemen row dari post
-									echo "<tr>";
+								if (!$result) {
+									echo "Dosen belum membuka lowongan asisten dosen";
+								} else {
+									while($row = pg_fetch_array($result)){  //Meng-echo masing-masing elemen row dari post
+										echo "<tr>";
 										
-									echo "<td> ". $row['idlowongan'] . "</td>";
-									echo "<td>" . $row['namakelas'] . "</td>";
-									echo "<td>" . $row['namadosen'] . "</td>";
-									echo "<td>" . $row['status'] . "</td>";
-									echo "<td>" . $row['jumlah_asisten'] . "</td>";
-									echo "<td>" . $row['jumlah_asisten'] . "</td>";
-									echo "<td>" . $row['jumlah_asisten'] . "</td>";
-									echo "<td>gepeng</td>";
-									
-									echo "</tr>";
+										if($row['status']){
+											$stat = 'Buka';
+										} else {
+											$stat = 'Tutup';
+										}
+										$pelamar = count('SELECT * FROM lamaran WHERE idlowongan =' .$row['idlowongan']);
+										$diterima = count('SELECT * FROM lamaran WHERE idlowongan =' .$row['idlowongan']. 'AND id_st_lamaran='3);
+										
+										echo "<td> ". $row['idlowongan'] . "</td>";
+										echo "<td>" . $row['namakelas'] . "</td>";
+										echo "<td>" . $row['namadosen'] . "</td>";
+										echo "<td>" . $stat . "</td>";
+										echo "<td>" . $row['jumlah_asisten'] . "</td>";
+										echo "<td>" . $pelamar . "</td>";
+										echo "<td>" . $diterima . "</td>";
+										echo "<td>gepeng</td>";
+										
+										$stat = '';
+										
+										echo "</tr>";
+										
+									}
 								}
 							?>
 						</tbody>
