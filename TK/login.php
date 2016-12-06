@@ -2,7 +2,7 @@
     require "connect.php";
     session_start();
     if(isset($_SESSION["username"])){
-        header("Location:lihat-lowongan.php");        
+        header("Location:lihat_lowongan.php");        
     }
 
     $resp = "";
@@ -15,12 +15,12 @@
         if (loginMhs($username, $password)) {
             $resp = "Login successful";
             $_SESSION["username"] = $username;
-            if ($search = searchMhs($username) > 0) {
-	            $_SESSION["npm"] = $search["npm"];
-	            $_SESSION["nama"] = $search["nama"];
-		    $_SESSION['role'] = "MHS";
-            }  
-             header("Location:lihat-lowongan.php");
+            $search = searchMhs($username);
+            $_SESSION["npm"] = $search["npm"];
+	        $_SESSION["nama"] = $search["nama"];
+            $_SESSION["email"] = $search["email"];
+              
+             header("Location:lihat_lowongan.php");
             exit();
         } else {
            $resp = "<br><div class=\"alert alert-danger fade in\" style = 'text-align: center;'>
@@ -30,13 +30,12 @@
         }
          if (loginDosen($username, $password)) {
             $resp = "Login successful";
-            $_SESSION["username"] = $username;
-	         if ($search = searchDosen($username) > 0) {
-		         $_SESSION["nip"] = $search["nip"];
-		         $_SESSION["nama"] = $search["nama"];
-			 $_SESSION['role'] = "DSN";
-	            }  
-	             header("Location:lihat-lowongan.php");
+           
+	        $search = searchDosen($username);
+            $_SESSION["nip"] = $search["nip"];
+            $_SESSION["username"] = $username; 
+            $_SESSION["nama"] = $search["nama"];
+	             header("Location:lihat_lowongan.php");
 	            exit();
 	        } else {
 	           $resp = "<br><div class=\"alert alert-danger fade in\" style = 'text-align: center;'>
@@ -48,9 +47,10 @@
 
     function searchMhs($user) {
         $conn = connectDB();
-        $sql = "SELECT nama, npm FROM SIASISTEN.mahasiswa WHERE username = '$user'";
+        $sql = "SELECT nama, npm, email FROM SIASISTEN.mahasiswa WHERE username = '$user'";
         $resultRole = pg_query($conn, $sql);
         $row = pg_fetch_assoc($resultRole);
+        pg_close($conn);
         return $row;
     }
 
@@ -59,6 +59,7 @@
         $sql = "SELECT nama, nip FROM SIASISTEN.dosen WHERE username = '$user'";
         $resultRole = pg_query($conn, $sql);
         $row = pg_fetch_assoc($resultRole);
+        pg_close($conn);
         return $row;
     }
 
