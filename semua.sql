@@ -1144,3 +1144,5 @@ INSERT INTO mhs_mengambil_kelas_mk VALUES (1406543714,47,26.9);
 INSERT INTO mhs_mengambil_kelas_mk VALUES (1406543714,48,96.36);
 INSERT INTO mhs_mengambil_kelas_mk VALUES (1406543714,49,12.82);
 INSERT INTO mhs_mengambil_kelas_mk VALUES (1406543714,50,61.24);
+
+INSERT INTO admin VALUES('987654321','Mario Querres','marios','scholar','Mario.querres.gmail.com'); 
